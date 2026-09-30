@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: 9mm-115
+caliber: 9mm-luger
+name: 115 gr FMJ
+short: 9mm 115 gr FMJ
+weightGr: 115
+diameterIn: 0.355
+bc: 0.14
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1094]
+  - [5, 1166]
+  - [6, 1188]
+  - [8, 1234]
+  - [10, 1253]
+  - [12, 1282]
+  - [14, 1295]
+  - [16, 1295]
+  - [18, 1297]
+notes: >-
+  Curve measured with Federal 115 gr JHP; FMJ may run 50-90 fps faster. Chronograph your load: 9mm
+  offsets are sensitive to velocity.
+sources:
+  - bbti-9mm
+  - label: Federal AE9DP
+    url: https://www.federalpremium.com/handgun/american-eagle/american-eagle-handgun/11-AE9DP.html

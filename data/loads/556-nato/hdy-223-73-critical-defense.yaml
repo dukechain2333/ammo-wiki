@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-223-73-critical-defense
+caliber: 556-nato
+brand: Hornady
+name: Hornady Critical Defense 73 gr FTX
+short: .223 Hornady 73 FTX
+sku: ["80260"]
+weightGr: 73
+diameterIn: 0.224
+bc: 0.26
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2060]
+  - [10.5, 2390]
+  - [14.5, 2595]
+  - [16, 2610]
+  - [18, 2705]
+  - [22, 2735]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 2,790 fps from a 24
+  in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Hornady 80260
+    url: https://www.hornady.com/ammunition/rifle/223-remington-73-gr-critical-defense

@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-223-73-eldm
+caliber: 556-nato
+brand: Hornady
+name: Hornady 73 gr ELD Match
+short: .223 Hornady 73 ELD-M
+sku: ["80269"]
+weightGr: 73
+diameterIn: 0.224
+bc: 0.2
+dragModel: G7
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 1855]
+  - [8, 2110]
+  - [10, 2305]
+  - [12, 2410]
+  - [14, 2510]
+  - [16.5, 2615]
+  - [17, 2635]
+  - [18, 2665]
+  - [19, 2685]
+  - [20, 2725]
+  - [21, 2745]
+  - [22, 2760]
+  - [23, 2760]
+  - [24, 2790]
+  - [25, 2815]
+  - [26, 2835]
+notes: >-
+  From the maker's rating (2,790 fps, 24 in test barrel); other lengths follow the Black Hills 68
+  gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Hornady 80269
+    url: https://www.hornady.com/ammunition/rifle/223-rem-73-gr-eld-match

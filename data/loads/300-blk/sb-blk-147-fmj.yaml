@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sb-blk-147-fmj
+caliber: 300-blk
+brand: Sellier & Bellot
+name: Sellier & Bellot 147 gr FMJ
+short: .300 BLK S&B 147 FMJ
+sku: [SB300BLKB, V341292]
+weightGr: 147
+diameterIn: 0.308
+bc: 0.204
+dragModel: G7
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1845]
+  - [10.5, 1970]
+  - [16.5, 2090]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,077 fps from a 16 in test
+  barrel.
+sources:
+  - luckygunner-300blk-2026
+  - label: Sellier & Bellot SB300BLKB
+    url: https://www.sellier-bellot.cz/en/products/rifle-ammunition/rifle-ammunition-training-fmj/

@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: pmc-xtac-556k
+caliber: 556-nato
+brand: PMC
+name: PMC X-TAC 62 gr LAP (M855, green tip)
+short: 5.56 PMC X-TAC 62
+sku: [5.56K, 5.56K-BP, 5.56K M/B]
+sameAs: m855
+weightGr: 62
+diameterIn: 0.224
+bc: 0.304
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2125]
+  - [7, 2290]
+  - [8, 2410]
+  - [9, 2515]
+  - [10, 2585]
+  - [11, 2675]
+  - [12, 2720]
+  - [13, 2775]
+  - [14, 2820]
+  - [16.5, 2955]
+  - [17, 2955]
+  - [18, 3025]
+  - [19, 3035]
+  - [20, 3065]
+  - [21, 3085]
+  - [22, 3130]
+  - [23, 3140]
+  - [24, 3160]
+  - [25, 3200]
+  - [26, 3250]
+notes: >-
+  Measured at 14.5, 16.1 and 20 in (The Firearm Blog); other lengths follow the M855 62 gr curve.
+  Maker's rating: 3,100 fps from a 20 in test barrel.
+sources:
+  - label: "The Firearm Blog: PMC M855 test (14.5 in)"
+    url: https://www.thefirearmblog.com/blog/2018/01/08/big-freakin-cartridge-test-007-pmc-m855-5-56x45mm-62gr-lap-14-5%e2%80%b3-barrel-accuracy/
+  - label: "The Firearm Blog: PMC M855 test (16.1, 20 in)"
+    url: https://www.thefirearmblog.com/blog/2018/01/09/cartridge-test-008-pmc-m855/
+  - label: PMC 5.56K
+    url: https://pmcammo.com/product/x-tac-5-56k/

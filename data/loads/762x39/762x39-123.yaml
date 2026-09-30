@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: 762x39-123
+caliber: 762x39
+name: 122-124 gr FMJ
+short: 7.62x39 123 gr FMJ
+weightGr: 123
+diameterIn: 0.31
+bc: 0.298
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1966]
+  - [10.5, 2196]
+  - [16.5, 2329]
+notes: >-
+  Average of seven FMJ loads; Wolf and TelaAmmo ran 60-100 fps faster.
+sources:
+  - luckygunner-762x39-2026

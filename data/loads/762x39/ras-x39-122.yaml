@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: ras-x39-122
+caliber: 762x39
+brand: Red Army Standard
+name: Red Army Standard 122 gr FMJ (steel case)
+short: 7.62x39 RAS 122 FMJ
+sameAs: 762x39-123
+weightGr: 122
+diameterIn: 0.311
+bc: 0.28
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2000]
+  - [10.5, 2235]
+  - [16.5, 2370]
+  - [18.5, 2415]
+notes: >-
+  Measured at 18.5 in (RECOIL); other lengths follow the LuckyGunner FMJ average curve. The maker
+  publishes no BC; 0.28 is typical of bimetal-jacket FMJ. Sourced from several countries over the
+  years; lots differ.
+sources:
+  - recoil-762x39
+  - label: Red Army Standard (retailer listing)
+    url: https://ammo.com/ammo-review/red-army-ammo-review

@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-65cm-140-american-gunner
+caliber: 65-creedmoor
+brand: Hornady
+name: Hornady American Gunner 140 gr BTHP
+short: 6.5 CM Hornady 140 BTHP
+sku: ["81482"]
+weightGr: 140
+diameterIn: 0.264
+bc: 0.58
+dragModel: G1
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2470]
+  - [17, 2490]
+  - [18, 2505]
+  - [19, 2545]
+  - [20, 2560]
+  - [21, 2580]
+  - [22, 2600]
+  - [23, 2625]
+  - [24, 2645]
+  - [25, 2680]
+  - [26, 2695]
+notes: >-
+  Measured by rifleshooter.com at every inch from 17 to 26 in (one barrel, cut down); 16 in
+  extended. Maker's rating: 2,690 fps from a 24 in test barrel.
+sources:
+  - hornady-catalog
+  - rifleshooter-65cm-2019

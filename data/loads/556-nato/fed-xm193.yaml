@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-xm193
+caliber: 556-nato
+brand: Federal
+name: Federal American Eagle XM193 55 gr FMJ BT
+short: 5.56 XM193 55 FMJ
+sku: [XM193, XM193X, XM193F, XM193BL, XM193BK, XM193LC1, XM193FCBL, AE193]
+sameAs: m193
+weightGr: 55
+diameterIn: 0.224
+bc: 0.246
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2200]
+  - [7, 2410]
+  - [8, 2520]
+  - [9, 2660]
+  - [10, 2765]
+  - [11, 2835]
+  - [12, 2920]
+  - [13, 2975]
+  - [14, 3040]
+  - [16.5, 3170]
+  - [17, 3170]
+  - [18, 3200]
+  - [19, 3260]
+  - [20, 3305]
+  - [21, 3305]
+  - [22, 3360]
+  - [23, 3360]
+  - [24, 3410]
+  - [25, 3425]
+  - [26, 3430]
+notes: >-
+  Measured by rifleshooter.com at every inch from 26 to 6 in (one barrel, cut down). Maker's
+  rating: 3,165 fps (test barrel not stated). rifleshooter.com tested a 2002 lot.
+sources:
+  - label: Federal XM193
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-AE193.html
+  - rifleshooter-223-2014-long
+  - rifleshooter-223-2015-short

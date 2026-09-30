@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: blk-110-tactx
+caliber: 300-blk
+brand: Barnes
+name: Barnes VOR-TX 110 gr TAC-TX
+short: .300 BLK Barnes 110 TAC-TX
+sku: ["21548"]
+standard: 110 gr TAC-TX supersonic (copper)
+weightGr: 110
+diameterIn: 0.308
+bc: 0.289
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2050]
+  - [10.5, 2190]
+  - [16.5, 2295]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,350 fps (test barrel not
+  stated).
+sources:
+  - luckygunner-300blk-2026
+  - label: Barnes 21548
+    url: https://barnesbullets.com/vor-tx-rifle-tac-tx-300-aac-blackout-110-gr-fb/

@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-308-178-eldx
+caliber: 308-win
+brand: Hornady
+name: Hornady Precision Hunter 178 gr ELD-X
+short: .308 Hornady 178 ELD-X
+sku: ["80994"]
+weightGr: 178
+diameterIn: 0.308
+bc: 0.278
+dragModel: G7
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2225]
+  - [14.5, 2330]
+  - [16, 2395]
+  - [16.5, 2415]
+  - [17, 2440]
+  - [18, 2450]
+  - [19, 2485]
+  - [20, 2525]
+  - [21, 2550]
+  - [22, 2570]
+  - [23, 2600]
+  - [24, 2600]
+  - [25, 2630]
+  - [26, 2640]
+  - [27, 2650]
+  - [28, 2675]
+notes: >-
+  From the maker's rating (2,600 fps, 24 in test barrel); other lengths follow the Winchester 180
+  gr Power-Point curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Hornady 80994 (retailer listing)
+    url: https://www.targetsportsusa.com/hornady-precision-hunter-308-winchester-ammo-178-grain-eld-x-80994-p-58799.aspx

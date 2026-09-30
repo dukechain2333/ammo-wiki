@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-308-ae-150-fmj
+caliber: 308-win
+brand: Federal
+name: Federal American Eagle 150 gr FMJ BT
+short: .308 AE 150 FMJ
+sku: [AE308D]
+weightGr: 150
+diameterIn: 0.308
+bc: 0.408
+dragModel: G1
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2375]
+  - [14.5, 2485]
+  - [16, 2560]
+  - [18, 2635]
+  - [20, 2700]
+  - [22, 2735]
+  - [24, 2765]
+notes: >-
+  Measured at 20 and 24 in (Sniper Central); other lengths follow the M80 ball curve. Maker's
+  rating: 2,820 fps from a 24 in test barrel. Sniper Central's test did not print the box code.
+sources:
+  - snipercentral-m80
+  - label: Federal AE308D
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-AE308D.html

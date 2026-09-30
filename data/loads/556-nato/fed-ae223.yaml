@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-ae223
+caliber: 556-nato
+brand: Federal
+name: Federal American Eagle 55 gr FMJ
+short: .223 AE 55 FMJ
+sku: [AE223, AE223BLF]
+weightGr: 55
+diameterIn: 0.224
+bc: 0.269
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2090]
+  - [7, 2290]
+  - [8, 2395]
+  - [9, 2525]
+  - [10, 2625]
+  - [11, 2695]
+  - [12, 2775]
+  - [13, 2825]
+  - [14, 2890]
+  - [16.5, 3010]
+  - [17, 3010]
+  - [18, 3040]
+  - [19, 3095]
+  - [20, 3140]
+  - [21, 3140]
+  - [22, 3190]
+  - [23, 3190]
+  - [24, 3240]
+  - [25, 3255]
+  - [26, 3260]
+notes: >-
+  From the maker's rating (3,240 fps, 24 in test barrel, assumed); other lengths follow the XM193
+  55 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Federal AE223
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-AE223.html

@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: pmc-223a
+caliber: 556-nato
+brand: PMC
+name: PMC Bronze 55 gr FMJ BT
+short: .223 PMC 55 FMJ
+sku: [223A, 223A-BP, 223A M/B]
+weightGr: 55
+diameterIn: 0.224
+bc: 0.243
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2045]
+  - [7, 2240]
+  - [8, 2345]
+  - [9, 2475]
+  - [10, 2575]
+  - [11, 2640]
+  - [12, 2715]
+  - [13, 2770]
+  - [14, 2830]
+  - [16.5, 2950]
+  - [17, 2950]
+  - [18, 2975]
+  - [19, 3035]
+  - [20, 3075]
+  - [21, 3075]
+  - [22, 3125]
+  - [23, 3125]
+  - [24, 3175]
+  - [25, 3185]
+  - [26, 3190]
+notes: >-
+  From PMC's own ratings at 16 and 24 in, with the XM193 55 gr curve for other lengths. Maker's
+  rating: 3,200 fps from a 24 in test barrel.
+sources:
+  - label: PMC 223A
+    url: https://pmcammo.com/product/bronze-223a/

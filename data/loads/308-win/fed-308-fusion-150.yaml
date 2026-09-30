@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-308-fusion-150
+caliber: 308-win
+brand: Federal
+name: Federal Fusion 150 gr SP
+short: .308 Fusion 150 SP
+sku: [F308FS1]
+weightGr: 150
+diameterIn: 0.308
+bc: 0.414
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2420]
+  - [14.5, 2535]
+  - [16, 2605]
+  - [18, 2685]
+  - [20, 2750]
+  - [22, 2785]
+  - [24, 2820]
+notes: >-
+  From the maker's rating (2,820 fps, 24 in test barrel); other lengths follow the M80 ball curve.
+  Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Federal F308FS1
+    url: https://www.federalpremium.com/rifle/fusion/fusion-rifle/11-F308FS1.html

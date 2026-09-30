@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-wm193
+caliber: 556-nato
+brand: Winchester
+name: Winchester USA M193 55 gr FMJ
+short: 5.56 Win M193 55 FMJ
+sku: [WM193K, WM193150, WM193200, WM193500, SGM193KW]
+sameAs: m193
+weightGr: 55
+diameterIn: 0.224
+bc: 0.246
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2050]
+  - [7, 2245]
+  - [8, 2350]
+  - [9, 2480]
+  - [10, 2580]
+  - [11, 2645]
+  - [12, 2725]
+  - [13, 2775]
+  - [14, 2835]
+  - [16.5, 2955]
+  - [17, 2955]
+  - [18, 2985]
+  - [19, 3040]
+  - [20, 3080]
+  - [21, 3080]
+  - [22, 3135]
+  - [23, 3135]
+  - [24, 3180]
+  - [25, 3195]
+  - [26, 3200]
+notes: >-
+  From the maker's rating (3,180 fps, 24 in test barrel, assumed); other lengths follow the XM193
+  55 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Winchester WM193K
+    url: https://winchester.com/Products/Ammunition/Rifle/USA/WM193K

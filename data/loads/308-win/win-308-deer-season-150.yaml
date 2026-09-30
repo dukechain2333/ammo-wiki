@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-308-deer-season-150
+caliber: 308-win
+brand: Winchester
+name: Winchester Deer Season XP 150 gr Extreme Point
+short: .308 Win DSXP 150
+sku: [X308DS, X308DSL]
+weightGr: 150
+diameterIn: 0.308
+bc: 0.392
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2420]
+  - [14.5, 2535]
+  - [16, 2605]
+  - [18, 2685]
+  - [20, 2750]
+  - [22, 2785]
+  - [24, 2820]
+notes: >-
+  From the maker's rating (2,820 fps, 24 in test barrel); other lengths follow the M80 ball curve.
+  Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Winchester X308DS
+    url: https://winchester.com/Products/Ammunition/Rifle/Deer-Season-XP/X308DS

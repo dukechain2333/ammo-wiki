@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-308-power-shok-180
+caliber: 308-win
+brand: Federal
+name: Federal Power-Shok 180 gr SP
+short: .308 Power-Shok 180 SP
+sku: [308B]
+weightGr: 180
+diameterIn: 0.308
+bc: 0.382
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2200]
+  - [14.5, 2305]
+  - [16, 2370]
+  - [16.5, 2390]
+  - [17, 2415]
+  - [18, 2425]
+  - [19, 2455]
+  - [20, 2495]
+  - [21, 2520]
+  - [22, 2540]
+  - [23, 2570]
+  - [24, 2570]
+  - [25, 2600]
+  - [26, 2610]
+  - [27, 2620]
+  - [28, 2645]
+notes: >-
+  From the maker's rating (2,570 fps, 24 in test barrel); other lengths follow the Winchester 180
+  gr Power-Point curve. Factory ratings often run fast, so a chronograph value is better. PMC also
+  uses the code 308B, for its 147 gr FMJ.
+sources:
+  - label: Federal 308B
+    url: https://www.federalpremium.com/rifle/power-shok/power-shok-rifle/11-308B.html

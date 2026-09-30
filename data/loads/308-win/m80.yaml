@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: m80
+caliber: 308-win
+name: M80 147-150 gr FMJ ball
+short: 7.62x51 M80 147 gr FMJ
+weightGr: 147
+diameterIn: 0.308
+bc: 0.398
+dragModel: G1
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2445]
+  - [14.5, 2560]
+  - [16, 2635]
+  - [18, 2715]
+  - [20, 2780]
+  - [22, 2815]
+  - [24, 2850]
+notes: >-
+  Blend of a cut-down test and a seven-brand 20/24 in comparison; brands vary by about +/-100 fps.
+sources:
+  - rifleshooter-308-2014
+  - snipercentral-m80

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../schema/caliber.schema.json
+id: 308-win
+name: .308 Win / 7.62x51 NATO
+short: .308 Win
+order: 5
+aliases: ["308", .308 Winchester, 7.62 NATO, 7.62x51, AR-10, AR10, M80, M118LR]
+bulletDiameterIn: 0.308
+barrelPresetsIn: [12.5, 14.5, 16, 18, 20, 22]
+defaultBarrelIn: 20
+tableRangeYd: 800
+description: >-
+  Winchester's commercial version of the cartridge that became 7.62x51 NATO. The two share outside
+  dimensions; military and commercial chamber and pressure specifications differ slightly.
+drawing: { caseLength: 51.2, overallLength: 71.1, base: 11.9, shoulder: 11.5, shoulderAt: 39.6, neckAt: 43.6, neck: 8.7, bullet: 7.8 }

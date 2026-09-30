@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-x39-usa-123
+caliber: 762x39
+brand: Winchester
+name: Winchester USA 123 gr FMJ
+short: 7.62x39 Win USA 123
+sku: [Q3174, W7623950, W76239120]
+sameAs: 762x39-123
+weightGr: 123
+diameterIn: 0.311
+bc: 0.25
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1950]
+  - [10.5, 2175]
+  - [16.5, 2310]
+  - [18, 2340]
+  - [18.5, 2350]
+notes: >-
+  Measured at 18 and 18.5 in (Cheaper Than Dirt, RECOIL); other lengths follow the LuckyGunner FMJ
+  average curve. Maker's rating: 2,355 fps from a 20 in test barrel.
+sources:
+  - cheaperthandirt-cz600-762x39
+  - recoil-762x39
+  - label: Winchester Q3174
+    url: https://winchester.com/Products/Ammunition/Rifle/USA/Q3174

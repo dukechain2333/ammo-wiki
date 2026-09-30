@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-ranger-223-55
+caliber: 556-nato
+brand: Winchester
+name: Winchester Ranger 55 gr PSP
+short: .223 Win Ranger 55
+sku: [RA223R]
+weightGr: 55
+diameterIn: 0.224
+bc: 0.197
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2110]
+  - [10.5, 2540]
+  - [14.5, 2820]
+  - [16, 2900]
+  - [18, 2955]
+  - [22, 3040]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,240 fps (test
+  barrel not stated). Winchester lists both 3,020 and 3,240 fps.
+sources:
+  - luckygunner-223-2026
+  - label: Winchester RA223R
+    url: https://winchesterle.com/Ammunition/Products/Rifle/Ranger

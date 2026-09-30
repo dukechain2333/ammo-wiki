@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: blk-220-sub
+caliber: 300-blk
+name: 220 gr OTM subsonic
+short: .300 BLK 220 gr subsonic
+weightGr: 220
+diameterIn: 0.308
+bc: 0.65
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 930]
+  - [9, 950]
+  - [10.5, 970]
+  - [16, 1000]
+notes: >-
+  16 in is the Federal spec; shorter barrels scaled from measured subsonic loads. Expect +/-50
+  fps.
+sources:
+  - luckygunner-300blk-2026
+  - label: Federal AE300BLKSUP2
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle-suppressor/11-AE300BLKSUP2.html

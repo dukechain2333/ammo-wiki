@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-65cm-120-eldm
+caliber: 65-creedmoor
+brand: Hornady
+name: Hornady 120 gr ELD Match
+short: 6.5 CM Hornady 120 ELD-M
+sku: ["81491"]
+weightGr: 120
+diameterIn: 0.264
+bc: 0.245
+dragModel: G7
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2655]
+  - [17, 2680]
+  - [18, 2720]
+  - [19, 2740]
+  - [20, 2780]
+  - [21, 2790]
+  - [22, 2820]
+  - [23, 2865]
+  - [24, 2880]
+  - [25, 2915]
+  - [26, 2925]
+notes: >-
+  Measured at 22 and 24 in (PrecisionRifleBlog); other lengths follow the American Eagle 120 gr
+  curve. Maker's rating: 2,910 fps from a 24 in test barrel.
+sources:
+  - precisionrifleblog-65cm-2021
+  - hornady-catalog

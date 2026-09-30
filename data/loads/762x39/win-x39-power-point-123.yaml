@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-x39-power-point-123
+caliber: 762x39
+brand: Winchester
+name: Winchester Super-X 123 gr Power-Point
+short: 7.62x39 Win 123 PP
+sku: [X76239]
+weightGr: 123
+diameterIn: 0.311
+bc: 0.244
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1965]
+  - [10.5, 2200]
+  - [16.5, 2330]
+  - [18.5, 2375]
+notes: >-
+  Measured at 12.5, 16 and 18.5 in (Gun Digest, RECOIL); other lengths follow the LuckyGunner FMJ
+  average curve. Maker's rating: 2,365 fps from a 20 in test barrel.
+sources:
+  - gundigest-ak-ammo
+  - recoil-762x39
+  - winchester-catalog

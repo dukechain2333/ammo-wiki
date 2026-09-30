@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../../schema/caliber.schema.json
+id: 65-creedmoor
+name: 6.5 Creedmoor
+short: 6.5 Creedmoor
+order: 6
+aliases: [6.5 CM, 6.5CM, 65CM, Creed, 6.5x48]
+bulletDiameterIn: 0.264
+barrelPresetsIn: [16, 18, 20, 22, 24]
+defaultBarrelIn: 24
+tableRangeYd: 1000
+description: >-
+  Introduced by Hornady in 2007 for long-range target shooting: long, high-BC 6.5 mm bullets in a
+  short-action case that fits AR-10 magazines.
+drawing: { caseLength: 48.8, overallLength: 72.4, base: 11.95, shoulder: 11.7, shoulderAt: 39.6, neckAt: 42.0, neck: 7.5, bullet: 6.7 }

@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-gm223m3
+caliber: 556-nato
+brand: Federal
+name: Federal Gold Medal 77 gr Sierra MatchKing
+short: .223 GMM 77 SMK
+sku: [GM223M3]
+weightGr: 77
+diameterIn: 0.224
+bc: 0.188
+dragModel: G7
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 1810]
+  - [8, 2055]
+  - [10, 2245]
+  - [12, 2350]
+  - [14, 2450]
+  - [16.5, 2550]
+  - [17, 2570]
+  - [18, 2600]
+  - [19, 2620]
+  - [20, 2655]
+  - [21, 2675]
+  - [22, 2690]
+  - [23, 2690]
+  - [24, 2720]
+  - [25, 2745]
+  - [26, 2765]
+notes: >-
+  From the maker's rating (2,720 fps, 24 in test barrel); other lengths follow the Black Hills 68
+  gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Federal GM223M3
+    url: https://www.federalpremium.com/rifle/gold-medal/gold-medal-sierra-matchking/11-GM223M3.html

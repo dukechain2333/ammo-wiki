@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: underwood-x39-123
+caliber: 762x39
+brand: Underwood
+name: Underwood 123 gr Controlled Chaos
+short: 7.62x39 Underwood 123
+sku: ["568"]
+weightGr: 123
+diameterIn: 0.311
+bc: 0.29
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1970]
+  - [10.5, 2180]
+  - [16.5, 2300]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,450 fps (test barrel not
+  stated).
+sources:
+  - luckygunner-762x39-2026
+  - label: Underwood 568
+    url: https://underwoodammo.com/7.62x39mm-123gr.-controlled-chaos-solid-monolithic-hunting-ammo/

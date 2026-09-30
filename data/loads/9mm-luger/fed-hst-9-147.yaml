@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-hst-9-147
+caliber: 9mm-luger
+brand: Federal
+name: Federal HST 147 gr JHP
+short: 9mm HST 147
+sku: [P9HST2S]
+sameAs: 9mm-147
+weightGr: 147
+diameterIn: 0.355
+bc: 0.203
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.5, 915]
+  - [4, 925]
+  - [5, 980]
+  - [6, 1000]
+  - [8, 1020]
+  - [10, 1040]
+  - [12, 1050]
+  - [14, 1055]
+  - [16, 1055]
+  - [18, 1055]
+notes: >-
+  Measured at 3.5, 4.7, 12.5 and 16.1 in (LuckyGunner); other lengths follow the Ballistics by the
+  Inch 147 gr curve. Maker's rating: 1,000 fps from a 4 in test barrel. The maker publishes no BC;
+  this one is fitted to its downrange velocity table.
+sources:
+  - luckygunner-pcc-2019
+  - label: Federal P9HST2S
+    url: https://www.federalpremium.com/handgun/personal-defense-hst/11-P9HST2S.html

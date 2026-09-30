@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-x39-ae-124
+caliber: 762x39
+brand: Federal
+name: Federal American Eagle 124 gr FMJ
+short: 7.62x39 AE 124 FMJ
+sku: [A76239A]
+sameAs: 762x39-123
+weightGr: 124
+diameterIn: 0.311
+bc: 0.298
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1950]
+  - [10.5, 2175]
+  - [16.5, 2310]
+  - [18, 2340]
+notes: >-
+  Measured at 5 barrel lengths from 7.5 to 18 in (Petersen's Rifle Shooter, Ultimate Reloader,
+  Shoot On, Cheaper Than Dirt); other lengths follow the LuckyGunner FMJ average curve. Maker's
+  rating: 2,350 fps (test barrel not stated).
+sources:
+  - label: "Petersen's Rifle Shooter: 7.62x39 in a 7.5 in barrel"
+    url: https://www.thefreelibrary.com/Short+stuff:+testing+the+7.62x39+in+a+7.5-inch+barrel+yields...-a0460059458
+  - ultimatereloader-762x39
+  - shooton-cz600-762x39
+  - cheaperthandirt-cz600-762x39
+  - label: Federal A76239A
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-A76239A.html

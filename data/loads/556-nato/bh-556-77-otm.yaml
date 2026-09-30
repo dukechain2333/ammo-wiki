@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: bh-556-77-otm
+caliber: 556-nato
+brand: Black Hills
+name: Black Hills 77 gr OTM (Sierra MatchKing)
+short: 5.56 BH 77 OTM
+sku: [D556N9, MP460556N9]
+sameAs: mk262
+weightGr: 77
+diameterIn: 0.224
+bc: 0.182
+dragModel: G7
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 1870]
+  - [8, 2130]
+  - [10, 2325]
+  - [12, 2435]
+  - [14, 2535]
+  - [16.5, 2640]
+  - [17, 2660]
+  - [18, 2690]
+  - [19, 2710]
+  - [20, 2750]
+  - [21, 2770]
+  - [22, 2785]
+  - [23, 2785]
+  - [24, 2815]
+  - [25, 2840]
+  - [26, 2860]
+notes: >-
+  From the maker's rating (2,750 fps, 20 in test barrel); other lengths follow the Black Hills 68
+  gr curve. Factory ratings often run fast, so a chronograph value is better. The commercial Mk
+  262-style load.
+sources:
+  - label: Black Hills D556N9
+    url: https://www.black-hills.com/shop/new-rifle-ammo/5-56mm/

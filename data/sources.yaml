@@ -1,0 +1,82 @@
+# Sources cited by more than one load. Loads refer to them by id; see CONTRIBUTING.md.
+
+ammoland-9mm-pistols:
+  label: "AmmoLand: 9mm velocity by pistol (3.4 to 5.3 in)"
+  url: https://www.scribd.com/document/342823084/9x19-Data-Spreadsheet
+ammoman-300blk-subsonic:
+  label: "AmmoMan: subsonic .300 BLK test (10.5 in)"
+  url: https://www.ammoman.com/blog/subsonic-300-blackout-ballistics/
+bbti-9mm:
+  label: Ballistics by the Inch, 9mm Luger
+  url: http://www.ballisticsbytheinch.com/9luger.html
+cheaperthandirt-cz600-762x39:
+  label: "Cheaper Than Dirt: CZ 600 Alpha 7.62x39 (18 in)"
+  url: https://blog.cheaperthandirt.com/cz-alpha-7-62x39mm-a-carbine-with-accuracy/
+fm-3-22-9:
+  label: US Army FM 3-22.9 Rifle Marksmanship
+gundigest-ak-ammo:
+  label: "Gun Digest: best AK ammo (12.5, 16 in)"
+  url: https://gundigest.com/gear-ammo/ammunition/best-ak-ammo-7-62x39-buyers-guide
+guntests-9mm-2020:
+  label: "Gun Tests: 9mm barrel lengths compared (2020)"
+  url: https://www.gun-tests.com/ammo/9mm-barrel-lengths-compared-in-range-performance-testing/
+hornady-catalog:
+  label: Hornady catalog
+  url: https://static.hornady.media/presscenter/docs/1410998060-2022-Standard-Ballistics-Chart.pdf
+luckygunner-223-2026:
+  label: LuckyGunner .223/5.56 barrel length test (2026)
+  url: https://www.luckygunner.com/lounge/223-ballistics/
+luckygunner-300blk-2026:
+  label: LuckyGunner .300 Blackout barrel length test (2026)
+  url: https://www.luckygunner.com/lounge/300-blackout-ballistics/
+luckygunner-762x39-2026:
+  label: LuckyGunner 7.62x39 barrel length test (2026)
+  url: https://www.luckygunner.com/lounge/7-62x39-barrel-length-vs-velocity-what-the-data-shows/
+luckygunner-pcc-2019:
+  label: "LuckyGunner: defensive ammo in pistol-caliber carbines (2019)"
+  url: https://www.luckygunner.com/lounge/self-defense-ammo-for-pistol-caliber-carbines/
+pewpewtactical-9mm:
+  label: "Pew Pew Tactical: 9mm ammo test (pistols and 16 in carbine)"
+  url: https://www.pewpewtactical.com/best-9mm-ammo-self-defense-range/
+precisionrifleblog-65cm-2021:
+  label: PrecisionRifleBlog 6.5 Creedmoor factory ammo velocity (2021)
+  url: https://precisionrifleblog.com/2021/05/28/6-5-creedmoor-ammo-review-muzzle-velocity/
+recoil-762x39:
+  label: "RECOIL: 7.62x39 ammo test (CZ 527, 18.5 in)"
+  url: https://www.recoilweb.com/7-62x39-ammo-test-101531.html
+rifleshooter-223-2014-long:
+  label: rifleshooter.com .223/5.56 barrel length, 26 to 16.5 in (2014)
+  url: https://rifleshooter.com/2014/04/223-remington5-56-nato-velocity-versus-barrel-length-a-man-his-chop-box-and-his-friends-rifle/
+rifleshooter-223-2015:
+  label: rifleshooter.com .223/5.56 barrel length, 26 to 6 in
+  url: https://rifleshooter.com/2015/12/223-remington-5-56mm-nato-barrel-length-and-velocity-26-inches-to-6-inches/
+rifleshooter-223-2015-short:
+  label: rifleshooter.com .223/5.56 short barrels, 14 to 6 in (2015)
+  url: https://rifleshooter.com/2015/11/223-remington5-56mm-nato-barrel-length-versus-velocity-short-barrels-6-to-14-inches/
+rifleshooter-308-2014:
+  label: rifleshooter.com .308/7.62x51 barrel length, 28 to 16.5 in
+  url: https://rifleshooter.com/2014/12/308-winchester-7-62x51mm-nato-barrel-length-versus-velocity-28-to-16-5/
+rifleshooter-65cm-2019:
+  label: rifleshooter.com 6.5 Creedmoor barrel length (2019)
+  url: https://rifleshooter.com/2019/03/6-5-creedmoor-effects-of-barrel-length-on-velocity-2019/
+rifleshooter-65cm-rifles-2019:
+  label: rifleshooter.com 6.5 Creedmoor in 22 and 26 in rifles (2019)
+  url: https://rifleshooter.com/2019/11/6-5-creedmoor-barrel-speed-can-shorter-barrels-shoot-faster/
+shooton-cz600-762x39:
+  label: "Shoot On: CZ 600 Alpha 7.62x39 test (18 in)"
+  url: https://shoot-on.com/tested-cz-600-alpha-7-62x39mm-carbine/
+snipercentral-308-168:
+  label: Sniper Central .308 168 gr match comparison
+  url: https://snipercentral.com/308-match-ammo-comparison-168gr/
+snipercentral-308-175:
+  label: Sniper Central .308 175 gr match comparison
+  url: https://snipercentral.com/308-match-ammo-comparison-175gr/
+snipercentral-m80:
+  label: Sniper Central M80 comparison
+  url: https://snipercentral.com/m80-ammo-comparison-test/
+ultimatereloader-762x39:
+  label: "Ultimate Reloader: 7.62x39 pistol vs. AK (8.5, 16 in)"
+  url: https://ultimatereloader.com/2020/01/04/psa-ks-47-7-62x39mm-pistol-overview-and-ballistics-comparison/
+winchester-catalog:
+  label: Winchester catalog
+  url: https://online.flippingbook.com/view/721179895/35/

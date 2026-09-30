@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: magtech-blk-200-sub
+caliber: 300-blk
+brand: Magtech
+name: Magtech 200 gr FMJ subsonic
+short: .300 BLK Magtech 200 sub
+sku: [300BLKSUBA]
+weightGr: 200
+diameterIn: 0.308
+bc: 0.56
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1015]
+  - [10.5, 1095]
+  - [16.5, 1140]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,017 fps from a 16 in test
+  barrel. Went supersonic (1,139 fps) from LuckyGunner's 16.5 in barrel. LuckyGunner lists 1,050
+  fps as the factory figure.
+sources:
+  - luckygunner-300blk-2026
+  - label: Magtech 300BLKSUBA
+    url: https://magtechammunition.com/products/ammunition/300-blackout-200gr-fmj-subsonic/

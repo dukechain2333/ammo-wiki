@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: nosler-x39-123-bt
+caliber: 762x39
+brand: Nosler
+name: Nosler 123 gr Ballistic Tip
+short: 7.62x39 Nosler 123 BT
+sku: ["40069"]
+weightGr: 123
+diameterIn: 0.31
+bc: 0.31
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1905]
+  - [10.5, 2135]
+  - [16.5, 2310]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,350 fps from a 24 in test
+  barrel.
+sources:
+  - luckygunner-762x39-2026
+  - label: Nosler 40069
+    url: https://www.nosler.com/7-62x39-123gr-ballistic-tip-hunting-ammunition.html

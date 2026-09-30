@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-223-75-bthp
+caliber: 556-nato
+brand: Hornady
+name: Hornady 75 gr BTHP Match
+short: .223 Hornady 75 BTHP
+sku: ["8026"]
+sameAs: 75-bthp
+weightGr: 75
+diameterIn: 0.224
+bc: 0.395
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 1855]
+  - [8, 2110]
+  - [10, 2305]
+  - [12, 2410]
+  - [14, 2510]
+  - [16.5, 2615]
+  - [17, 2635]
+  - [18, 2665]
+  - [19, 2685]
+  - [20, 2725]
+  - [21, 2745]
+  - [22, 2760]
+  - [23, 2760]
+  - [24, 2790]
+  - [25, 2815]
+  - [26, 2835]
+notes: >-
+  From the maker's rating (2,790 fps, 24 in test barrel); other lengths follow the Black Hills 68
+  gr curve. Factory ratings often run fast, so a chronograph value is better. Not Superformance
+  Match (80264), which is rated faster.
+sources:
+  - label: Hornady 8026
+    url: https://www.hornady.com/ammunition/rifle/223-rem-75-gr-bthp-match

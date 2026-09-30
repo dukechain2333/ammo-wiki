@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sb-223-55-fmj
+caliber: 556-nato
+brand: Sellier & Bellot
+name: Sellier & Bellot 55 gr FMJ (.223 or M193)
+short: .223 S&B 55 FMJ
+sku: [SB223A, SB556A, V341862]
+sameAs: m193
+weightGr: 55
+diameterIn: 0.224
+bc: 0.127
+dragModel: G7
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2145]
+  - [7, 2350]
+  - [8, 2455]
+  - [9, 2595]
+  - [10, 2695]
+  - [11, 2765]
+  - [12, 2850]
+  - [13, 2900]
+  - [14, 2965]
+  - [16.5, 3090]
+  - [17, 3090]
+  - [18, 3120]
+  - [19, 3180]
+  - [20, 3225]
+  - [21, 3225]
+  - [22, 3275]
+  - [23, 3275]
+  - [24, 3325]
+  - [25, 3340]
+  - [26, 3345]
+notes: >-
+  From the maker's rating (3,301 fps, 23.5 in test barrel); other lengths follow the XM193 55 gr
+  curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Sellier & Bellot SB223A
+    url: https://www.sellier-bellot.cz/en/products/rifle-ammunition/rifle-ammunition-fmj/detail/180/

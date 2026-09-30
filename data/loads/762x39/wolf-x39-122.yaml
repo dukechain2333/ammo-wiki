@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: wolf-x39-122
+caliber: 762x39
+brand: Wolf
+name: Wolf Performance 122 gr FMJ (steel case)
+short: 7.62x39 Wolf 122 FMJ
+sku: [762WFMJ]
+sameAs: 762x39-123
+weightGr: 122
+diameterIn: 0.311
+bc: 0.28
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2055]
+  - [10.5, 2285]
+  - [16.5, 2375]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,362 fps (test barrel not
+  stated). The maker publishes no BC; 0.28 is typical of bimetal-jacket FMJ.
+sources:
+  - luckygunner-762x39-2026
+  - label: Wolf 762WFMJ (retailer listing)
+    url: https://www.targetsportsusa.com/wolf-polyformance-7-62-39mm-ammo-122-grain-bi-metal-fmj-steel-case-762wfmj-p-110076.aspx

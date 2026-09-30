@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fiocchi-x39-123
+caliber: 762x39
+brand: Fiocchi
+name: Fiocchi Range Dynamics 123 gr FMJ
+short: 7.62x39 Fiocchi 123 FMJ
+sku: [762X39A]
+sameAs: 762x39-123
+weightGr: 123
+diameterIn: 0.311
+bc: 0.266
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1895]
+  - [10.5, 2145]
+  - [16.5, 2260]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,375 fps (test barrel not
+  stated).
+sources:
+  - luckygunner-762x39-2026
+  - label: Fiocchi 762X39A
+    url: https://www.fiocchiusa.com/centerfire-rifle/range-dynamics-rifle/33-762X39A.html

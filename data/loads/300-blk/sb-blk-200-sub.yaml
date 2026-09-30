@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sb-blk-200-sub
+caliber: 300-blk
+brand: Sellier & Bellot
+name: Sellier & Bellot 200 gr FMJ subsonic
+short: .300 BLK S&B 200 sub
+sku: [SB300BLKSUBA, V341302]
+weightGr: 200
+diameterIn: 0.308
+bc: 0.242
+dragModel: G7
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 990]
+  - [10.5, 1035]
+  - [16.5, 1085]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,060 fps from a 16.1 in test
+  barrel.
+sources:
+  - label: Sellier & Bellot SB300BLKSUBA
+    url: https://www.sellier-bellot.cz/en/products/rifle-ammunition/rifle-ammunition-training-fmj/
+  - luckygunner-300blk-2026

@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: speer-gd-9-124-plusp
+caliber: 9mm-luger
+brand: Speer
+name: Speer Gold Dot 124 gr JHP +P
+short: 9mm Gold Dot 124 +P
+sku: [23617GD, 53617GD, "53617"]
+weightGr: 124
+diameterIn: 0.355
+bc: 0.134
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 1195]
+  - [3.5, 1200]
+  - [3.7, 1205]
+  - [4, 1215]
+  - [5, 1280]
+  - [6, 1300]
+  - [8, 1355]
+  - [10, 1390]
+  - [12, 1405]
+  - [14, 1425]
+  - [16, 1425]
+  - [16.1, 1425]
+notes: >-
+  Measured at 10 barrel lengths from 3.39 to 16.1 in (LuckyGunner, Pew Pew Tactical, Gun Tests);
+  other lengths follow the Ballistics by the Inch 124 gr curve. Maker's rating: 1,220 fps from a 4
+  in test barrel. Readings at 16 in range from 1,305 to 1,458 fps between carbines.
+sources:
+  - luckygunner-pcc-2019
+  - pewpewtactical-9mm
+  - guntests-9mm-2020
+  - label: Speer 23617GD
+    url: https://www.speer.com/ammunition/gold-dot/gold-dot-handgun-personal-protection/19-53617GD.html

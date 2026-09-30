@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: ppu-x39-123-fmj
+caliber: 762x39
+brand: Prvi Partizan
+name: Prvi Partizan (PPU) 123 gr FMJ
+short: 7.62x39 PPU 123 FMJ
+sku: [PP76239F]
+sameAs: 762x39-123
+weightGr: 123
+diameterIn: 0.31
+bc: 0.271
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2115]
+  - [10.5, 2365]
+  - [16.5, 2505]
+  - [18.5, 2555]
+notes: >-
+  Measured at 18.5 in (RECOIL); other lengths follow the LuckyGunner FMJ average curve. Maker's
+  rating: 2,350 fps (test barrel not stated). PPU lists both 2,350 and 2,460 fps.
+sources:
+  - recoil-762x39
+  - label: Prvi Partizan PP76239F
+    url: https://ppu-usa.com/ppu/7-62x39/

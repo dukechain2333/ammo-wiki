@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: bh-556-62-tsx
+caliber: 556-nato
+brand: Black Hills
+name: Black Hills 62 gr Barnes TSX
+short: 5.56 BH 62 TSX
+sku: [D556N18]
+weightGr: 62
+diameterIn: 0.224
+bc: 0.296
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2145]
+  - [10.5, 2545]
+  - [14.5, 2815]
+  - [16, 2890]
+  - [18, 2950]
+  - [22, 3020]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,000 fps from a 20
+  in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Black Hills D556N18
+    url: https://www.black-hills.com/shop/new-rifle-ammo/5-56mm/

@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: bh-223-68-hm
+caliber: 556-nato
+brand: Black Hills
+name: Black Hills 68 gr Heavy Match
+short: .223 BH 68 Heavy Match
+sku: [M223N5, D223N5]
+weightGr: 68
+diameterIn: 0.224
+bc: 0.355
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 1865]
+  - [8, 2120]
+  - [10, 2315]
+  - [12, 2425]
+  - [14, 2525]
+  - [16.5, 2630]
+  - [17, 2650]
+  - [18, 2680]
+  - [19, 2700]
+  - [20, 2740]
+  - [21, 2760]
+  - [22, 2775]
+  - [23, 2775]
+  - [24, 2805]
+  - [25, 2830]
+  - [26, 2850]
+notes: >-
+  Measured by rifleshooter.com at every inch from 26 to 6 in (one barrel, cut down). Maker's
+  rating: 2,850 fps from a 24 in test barrel. Black Hills publishes no BC; this is the Hornady 68
+  gr BTHP bullet's figure.
+sources:
+  - label: Black Hills M223N5
+    url: https://www.black-hills.com/shop/new-rifle-ammo/223-remington/
+  - rifleshooter-223-2015

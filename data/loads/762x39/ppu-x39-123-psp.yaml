@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: ppu-x39-123-psp
+caliber: 762x39
+brand: Prvi Partizan
+name: Prvi Partizan (PPU) 123 gr PSP
+short: 7.62x39 PPU 123 PSP
+sku: [PP76239P, PP7.34]
+weightGr: 123
+diameterIn: 0.31
+bc: 0.257
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1935]
+  - [10.5, 2160]
+  - [16.5, 2290]
+  - [18.5, 2335]
+notes: >-
+  Measured at 12.5, 16 and 18.5 in (Gun Digest, RECOIL); other lengths follow the LuckyGunner FMJ
+  average curve. Maker's rating: 2,350 fps (test barrel not stated). PPU lists both 2,350 and
+  2,460 fps; lots vary.
+sources:
+  - gundigest-ak-ammo
+  - recoil-762x39
+  - label: Prvi Partizan PP76239P
+    url: https://ppu-usa.com/ppu/7-62x39/

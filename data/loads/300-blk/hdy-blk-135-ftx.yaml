@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-blk-135-ftx
+caliber: 300-blk
+brand: Hornady
+name: Hornady Custom 135 gr FTX
+short: .300 BLK Hornady 135 FTX
+sku: ["80881"]
+weightGr: 135
+diameterIn: 0.308
+bc: 0.274
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1840]
+  - [10.5, 1990]
+  - [16.5, 2095]
+notes: >-
+  From the maker's rating (2,085 fps, 16 in test barrel); other lengths follow the American Eagle
+  150 gr FMJ curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Hornady 80881
+    url: https://www.hornady.com/ammunition/rifle/300-blackout-135-gr-ftx

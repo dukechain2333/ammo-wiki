@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-hst-9-124
+caliber: 9mm-luger
+brand: Federal
+name: Federal HST 124 gr JHP
+short: 9mm HST 124
+sku: [P9HST1S]
+sameAs: 9mm-124
+weightGr: 124
+diameterIn: 0.355
+bc: 0.152
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 1150]
+  - [3.5, 1155]
+  - [3.7, 1160]
+  - [4, 1170]
+  - [5, 1230]
+  - [6, 1245]
+  - [8, 1300]
+  - [10, 1335]
+  - [12, 1350]
+  - [14, 1370]
+  - [16, 1370]
+  - [16.1, 1370]
+notes: >-
+  Measured at 10 barrel lengths from 3.39 to 16.1 in (LuckyGunner, Pew Pew Tactical, AmmoLand);
+  other lengths follow the Ballistics by the Inch 124 gr curve. Maker's rating: 1,150 fps from a 4
+  in test barrel. Readings at 16 in disagree by about 130 fps between carbines. The maker
+  publishes no BC; this one is fitted to its downrange velocity table.
+sources:
+  - luckygunner-pcc-2019
+  - pewpewtactical-9mm
+  - ammoland-9mm-pistols
+  - label: Federal P9HST1S
+    url: https://www.federalpremium.com/handgun/personal-defense-hst/11-P9HST1S.html

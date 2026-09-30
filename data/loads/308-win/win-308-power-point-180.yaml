@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-308-power-point-180
+caliber: 308-win
+brand: Winchester
+name: Winchester Super-X 180 gr Power-Point
+short: .308 Win 180 Power-Point
+sku: [X3086]
+weightGr: 180
+diameterIn: 0.308
+bc: 0.382
+dragModel: G1
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2185]
+  - [14.5, 2290]
+  - [16, 2355]
+  - [16.5, 2375]
+  - [17, 2400]
+  - [18, 2410]
+  - [19, 2440]
+  - [20, 2480]
+  - [21, 2505]
+  - [22, 2525]
+  - [23, 2555]
+  - [24, 2555]
+  - [25, 2585]
+  - [26, 2595]
+  - [27, 2605]
+  - [28, 2630]
+notes: >-
+  Measured by rifleshooter.com at every inch from 28 to 16.5 in (one barrel, cut down); 12.5 to 16
+  in extended along the M80 curve. Maker's rating: 2,620 fps from a 24 in test barrel.
+sources:
+  - label: Winchester catalog
+    url: https://www.ableammo.com/catalog/ammo_charts/Winchester_Ammunition_Ballistic.pdf
+  - rifleshooter-308-2014

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: bh-223-40-vmax
+caliber: 556-nato
+brand: Black Hills
+name: Black Hills 40 gr V-MAX
+short: .223 BH 40 V-MAX
+sku: [M223N11]
+weightGr: 40
+diameterIn: 0.224
+bc: 0.2
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2435]
+  - [10.5, 2900]
+  - [14.5, 3225]
+  - [16, 3285]
+  - [18, 3385]
+  - [22, 3435]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,600 fps from a 24
+  in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Black Hills M223N11
+    url: https://www.black-hills.com/shop/new-rifle-ammo/223-remington/

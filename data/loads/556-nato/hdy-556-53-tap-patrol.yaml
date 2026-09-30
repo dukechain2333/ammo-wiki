@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-556-53-tap-patrol
+caliber: 556-nato
+brand: Hornady
+name: Hornady TAP Patrol 53 gr CX
+short: 5.56 Hornady 53 TAP
+sku: ["81275"]
+weightGr: 53
+diameterIn: 0.224
+bc: 0.17
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2505]
+  - [10.5, 2940]
+  - [14.5, 3205]
+  - [16, 3285]
+  - [18, 3400]
+  - [22, 3400]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,300 fps from a 20
+  in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Hornady 81275
+    url: https://www.hornadyle.com/rifle-ammunition/53-gr-tap-patrol-nato

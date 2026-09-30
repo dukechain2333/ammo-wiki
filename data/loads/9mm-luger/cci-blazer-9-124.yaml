@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: cci-blazer-9-124
+caliber: 9mm-luger
+brand: CCI
+name: CCI Blazer Brass 124 gr FMJ
+short: 9mm Blazer Brass 124
+sku: ["5201"]
+sameAs: 9mm-124
+weightGr: 124
+diameterIn: 0.355
+bc: 0.167
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.7, 1060]
+  - [4, 1065]
+  - [5, 1120]
+  - [6, 1135]
+  - [8, 1185]
+  - [10, 1220]
+  - [12, 1230]
+  - [14, 1250]
+  - [16, 1250]
+notes: >-
+  Measured at 3.7, 4.5 and 16 in (Pew Pew Tactical); other lengths follow the Ballistics by the
+  Inch 124 gr curve. Maker's rating: 1,090 fps from a 4 in test barrel. The maker publishes no BC;
+  this one is fitted to its downrange velocity table.
+sources:
+  - pewpewtactical-9mm
+  - label: CCI 5201
+    url: https://www.cci-ammunition.com/handgun/blazer/blazer-brass/6-5201.html

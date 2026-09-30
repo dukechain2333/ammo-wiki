@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: mk262
+caliber: 556-nato
+name: Mk 262 / 77 gr OTM (Sierra MatchKing)
+short: 5.56 77 gr OTM (Mk 262)
+weightGr: 77
+diameterIn: 0.224
+bc: 0.182
+dragModel: G7
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2125]
+  - [10.3, 2385]
+  - [11.5, 2450]
+  - [12.5, 2500]
+  - [14.5, 2590]
+  - [16, 2660]
+  - [18, 2740]
+  - [20, 2780]
+notes: >-
+  Measured 14.5 in and longer; shorter barrels estimated from the 75 gr heavy-match ratios.
+sources:
+  - label: Black Hills 77 gr TMK test, The Firearm Blog
+    url: https://www.thefirearmblog.com/blog/2015/06/09/black-hills-77-grain-tipped-matchking-precision-5-56mm-ammo/
+  - label: Sierra 77 gr MatchKing
+    url: https://sierrabullets.com/22-cal-77-gr-hpbt-matchking-smk/

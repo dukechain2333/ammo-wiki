@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-ae9dp
+caliber: 9mm-luger
+brand: Federal
+name: Federal American Eagle 115 gr FMJ
+short: 9mm AE 115 FMJ
+sku: [AE9DP]
+sameAs: 9mm-115
+weightGr: 115
+diameterIn: 0.355
+bc: 0.121
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 1105]
+  - [4, 1125]
+  - [5, 1200]
+  - [6, 1220]
+  - [8, 1270]
+  - [10, 1290]
+  - [12, 1320]
+  - [14, 1330]
+  - [16, 1330]
+  - [18, 1335]
+notes: >-
+  Measured at 3.39, 4 and 5.3 in (AmmoLand); other lengths follow the Ballistics by the Inch 115
+  gr curve. Maker's rating: 1,180 fps from a 4 in test barrel. Only pistol barrels were measured,
+  so carbine velocities are less certain. The maker publishes no BC; this one is fitted to its
+  downrange velocity table.
+sources:
+  - ammoland-9mm-pistols
+  - label: Federal AE9DP
+    url: https://www.federalpremium.com/handgun/american-eagle/american-eagle-handgun/11-AE9DP.html

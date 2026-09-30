@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-blk-ae-220-sub
+caliber: 300-blk
+brand: Federal
+name: Federal American Eagle Suppressor 220 gr OTM subsonic
+short: .300 BLK AE 220 sub
+sku: [AE300BLKSUP2]
+sameAs: blk-220-sub
+weightGr: 220
+diameterIn: 0.308
+bc: 0.65
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 940]
+  - [10.5, 980]
+  - [16.5, 1030]
+notes: >-
+  Measured at 10.5 and 16 in (AmmoMan, International Sportsman); other lengths follow the Sellier
+  & Bellot 200 gr subsonic curve. Maker's rating: 1,000 fps (test barrel not stated).
+sources:
+  - ammoman-300blk-subsonic
+  - label: "International Sportsman: AE subsonic review (16 in)"
+    url: https://internationalsportsman.com/american-eagle-subsonic-300-blk-suppressor-ammo-review/
+  - label: Federal AE300BLKSUP2
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle-suppressor/11-AE300BLKSUP2.html

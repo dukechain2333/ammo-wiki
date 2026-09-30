@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: m193
+caliber: 556-nato
+name: M193 55 gr FMJ
+short: 5.56 M193 55 gr FMJ
+weightGr: 55
+diameterIn: 0.224
+bc: 0.246
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2445]
+  - [10.3, 2760]
+  - [11.5, 2860]
+  - [12.5, 2935]
+  - [14.5, 3050]
+  - [16, 3110]
+  - [18, 3185]
+  - [20, 3250]
+notes: >-
+  Blend of two chronograph tests; 20 in anchored to the M16A1 spec (3,250 fps).
+sources:
+  - luckygunner-223-2026
+  - rifleshooter-223-2015
+  - fm-3-22-9
+  - label: Federal AE193 spec
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-AE193.html

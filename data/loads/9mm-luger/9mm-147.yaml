@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: 9mm-147
+caliber: 9mm-luger
+name: 147 gr subsonic
+short: 9mm 147 gr subsonic
+weightGr: 147
+diameterIn: 0.355
+bc: 0.212
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 951]
+  - [5, 1007]
+  - [6, 1030]
+  - [8, 1047]
+  - [10, 1067]
+  - [12, 1081]
+  - [14, 1085]
+  - [16, 1085]
+  - [18, 1085]
+notes: >-
+  Curve measured with Federal 147 gr Hydra-Shok; flat at about 1,070-1,090 fps past 12 in.
+sources:
+  - bbti-9mm
+  - label: Federal AE9FP
+    url: https://www.federalpremium.com/handgun/american-eagle/american-eagle-handgun/11-AE9FP.html

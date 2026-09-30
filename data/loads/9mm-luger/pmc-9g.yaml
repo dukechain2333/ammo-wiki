@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: pmc-9g
+caliber: 9mm-luger
+brand: PMC
+name: PMC Bronze 124 gr FMJ
+short: 9mm PMC 124 FMJ
+sku: [9G]
+sameAs: 9mm-124
+weightGr: 124
+diameterIn: 0.355
+bc: 0.143
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.7, 1055]
+  - [4, 1065]
+  - [5, 1115]
+  - [6, 1135]
+  - [8, 1180]
+  - [10, 1215]
+  - [12, 1225]
+  - [14, 1245]
+  - [16, 1245]
+notes: >-
+  Measured at 3.7, 4.5 and 16 in (Pew Pew Tactical); other lengths follow the Ballistics by the
+  Inch 124 gr curve. Maker's rating: 1,110 fps (test barrel not stated). The maker publishes no
+  BC; this one is fitted to its downrange velocity table.
+sources:
+  - pewpewtactical-9mm
+  - label: PMC 9G
+    url: https://pmcammo.com/product/bronze-9g/

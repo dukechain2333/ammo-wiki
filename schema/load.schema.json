@@ -1,0 +1,171 @@
+{
+  "title": "Ammo Wiki load",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Same as the file name without .yaml. Never change it once merged: links use it."
+    },
+    "caliber": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Id of the caliber, which is also the folder name: 556-nato, 300-blk, 9mm-luger, 762x39, 308-win, 65-creedmoor."
+    },
+    "brand": {
+      "description": "Maker, for factory loads. Leave out for generic and military-spec types such as M193.",
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Full name, as the maker writes it plus the bullet weight and type."
+    },
+    "short": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 32,
+      "description": "Compact name for tables and printed targets, 32 characters at most."
+    },
+    "sku": {
+      "description": "Product codes printed on the box, so a search for them finds the load.",
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "standard": {
+      "description": "For a factory load that stands in for a common type (e.g. Federal Gold Medal 168 gr for \".308 168 gr match\"): that type's name.",
+      "type": "string",
+      "minLength": 3
+    },
+    "sameAs": {
+      "description": "Id of the standard type this factory load is made to, e.g. m193 or m855.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "weightGr": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 1000,
+      "description": "Bullet weight, grains."
+    },
+    "diameterIn": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 1,
+      "description": "Bullet diameter, inches."
+    },
+    "bc": {
+      "type": "number",
+      "minimum": 0.05,
+      "maximum": 1.5,
+      "description": "Ballistic coefficient for the drag model below."
+    },
+    "dragModel": {
+      "type": "string",
+      "enum": [
+        "G1",
+        "G7"
+      ],
+      "description": "Drag table the BC refers to."
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "ar15",
+        "ar10"
+      ],
+      "description": "The upper the load is usually fired from; sets the default rail-to-bore height (ar15 for AR-15-size receivers, ar10 for AR-10-size)."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "high: the load's own chronograph series across barrel lengths. medium: measured at a couple of lengths, a similar load's curve fills the rest. low: one reading or only the maker's rating."
+    },
+    "mvByBarrel": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": [
+          {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 40
+          },
+          {
+            "type": "number",
+            "minimum": 300,
+            "maximum": 5000
+          }
+        ],
+        "additionalItems": false,
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "description": "[barrel length in, muzzle velocity fps] pairs, shortest barrel first."
+    },
+    "notes": {
+      "description": "How the numbers were measured or derived, and anything a reader should know about them.",
+      "type": "string",
+      "minLength": 1
+    },
+    "sources": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Id of a shared source in data/sources.yaml."
+          },
+          {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 3,
+                "description": "What the source is: publisher, title and year, e.g. \"LuckyGunner .223/5.56 barrel length test (2026)\"."
+              },
+              "url": {
+                "description": "Link to the source. Leave out only for print sources such as a field manual.",
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "description": "Where the numbers came from: ids from data/sources.yaml, or { label, url }."
+    }
+  },
+  "required": [
+    "id",
+    "caliber",
+    "name",
+    "short",
+    "weightGr",
+    "diameterIn",
+    "bc",
+    "dragModel",
+    "platform",
+    "confidence",
+    "mvByBarrel",
+    "sources"
+  ],
+  "additionalProperties": false
+}

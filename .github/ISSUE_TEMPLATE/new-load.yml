@@ -1,0 +1,37 @@
+name: Suggest a load
+description: A load that is missing, with where its numbers come from. (Or open a pull request directly.)
+title: "New load: "
+labels: [data, new-load]
+body:
+  - type: input
+    id: load
+    attributes:
+      label: Load
+      description: Maker, product line, bullet weight and type, box code.
+      placeholder: Hornady Black 62 gr FMJ, 80263
+    validations:
+      required: true
+  - type: dropdown
+    id: caliber
+    attributes:
+      label: Caliber
+      options: [5.56 NATO / .223 Rem, .300 AAC Blackout, 9mm Luger, 7.62x39, .308 Win / 7.62x51, 6.5 Creedmoor, Other (new caliber)]
+    validations:
+      required: true
+  - type: textarea
+    id: numbers
+    attributes:
+      label: Numbers
+      description: BC and drag model, and muzzle velocity with the barrel length for each reading.
+      placeholder: |
+        BC 0.262 G1
+        16 in: 2,905 fps (10 shots)
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links to the chronograph test, maker's page or document.
+    validations:
+      required: true

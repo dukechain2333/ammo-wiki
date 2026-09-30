@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sig-9-124-v-crown
+caliber: 9mm-luger
+brand: Sig Sauer
+name: Sig Sauer Elite V-Crown 124 gr JHP
+short: 9mm Sig 124 V-Crown
+sku: [E9MMA2-50]
+sameAs: 9mm-124
+weightGr: 124
+diameterIn: 0.355
+bc: 0.145
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1165]
+  - [5, 1225]
+  - [6, 1240]
+  - [8, 1295]
+  - [10, 1330]
+  - [12, 1345]
+  - [14, 1365]
+  - [16, 1365]
+notes: >-
+  From the maker's rating (1,165 fps, 4 in test barrel); other lengths follow the Ballistics by
+  the Inch 124 gr curve. Factory ratings often run fast, so a chronograph value is better. Sig
+  publishes no BC; 0.145 is typical of 124 gr JHPs.
+sources:
+  - label: Sig Sauer E9MMA2-50
+    url: https://www.sigsauer.com/9mm-124gr-elite-v-crown-jhp-50-count.html

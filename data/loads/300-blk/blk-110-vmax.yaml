@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: blk-110-vmax
+caliber: 300-blk
+brand: Hornady
+name: Hornady BLACK 110 gr V-MAX
+short: .300 BLK Hornady 110 V-MAX
+sku: ["80873"]
+standard: 110 gr V-MAX supersonic
+weightGr: 110
+diameterIn: 0.308
+bc: 0.29
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2055]
+  - [10.5, 2230]
+  - [16.5, 2375]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,375 fps from a 16 in test
+  barrel.
+sources:
+  - label: Hornady 80873
+    url: https://www.hornady.com/ammunition/rifle/300-blackout-110-gr-v-max-black
+  - luckygunner-300blk-2026

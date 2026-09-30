@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: speer-gd-9-147
+caliber: 9mm-luger
+brand: Speer
+name: Speer Gold Dot 147 gr JHP
+short: 9mm Gold Dot 147
+sku: [23619GD, "53619"]
+sameAs: 9mm-147
+weightGr: 147
+diameterIn: 0.355
+bc: 0.164
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 920]
+  - [4, 935]
+  - [5, 990]
+  - [6, 1015]
+  - [8, 1030]
+  - [10, 1050]
+  - [12, 1065]
+  - [14, 1070]
+  - [16, 1070]
+  - [18, 1070]
+notes: >-
+  Measured at 3.39, 4.02, 4.49 and 16 in (Gun Tests); other lengths follow the Ballistics by the
+  Inch 147 gr curve. Maker's rating: 985 fps from a 4 in test barrel.
+sources:
+  - guntests-9mm-2020
+  - label: Speer 23619GD
+    url: https://www.speer.com/ammunition/gold-dot/gold-dot-handgun-personal-protection/19-23619GD.html

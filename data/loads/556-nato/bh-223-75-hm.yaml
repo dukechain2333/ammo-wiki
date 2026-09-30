@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: bh-223-75-hm
+caliber: 556-nato
+brand: Black Hills
+name: Black Hills 75 gr Heavy Match
+short: .223 BH 75 Heavy Match
+sku: [M223N6, D223N6]
+sameAs: 75-bthp
+weightGr: 75
+diameterIn: 0.224
+bc: 0.395
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2030]
+  - [10.5, 2340]
+  - [14.5, 2525]
+  - [16, 2570]
+  - [18, 2640]
+  - [22, 2660]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 2,750 fps from a 24
+  in test barrel. Black Hills publishes no BC; this is the Hornady 75 gr BTHP bullet's figure.
+sources:
+  - luckygunner-223-2026
+  - label: Black Hills M223N6
+    url: https://www.black-hills.com/shop/new-rifle-ammo/223-remington/

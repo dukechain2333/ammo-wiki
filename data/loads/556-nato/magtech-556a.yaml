@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: magtech-556a
+caliber: 556-nato
+brand: Magtech
+name: Magtech 55 gr FMJ M193 (5.56)
+short: 5.56 Magtech M193
+sku: [556A]
+sameAs: m193
+weightGr: 55
+diameterIn: 0.224
+bc: 0.272
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2365]
+  - [10.5, 2760]
+  - [14.5, 3045]
+  - [16, 3085]
+  - [18, 3185]
+  - [22, 3200]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,265 fps from a 20
+  in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Magtech 556A
+    url: https://magtechammunition.com/products/ammunition/5-56x45mm-ball-m193/

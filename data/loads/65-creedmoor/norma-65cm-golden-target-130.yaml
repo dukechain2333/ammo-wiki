@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: norma-65cm-golden-target-130
+caliber: 65-creedmoor
+brand: Norma
+name: Norma Golden Target 130 gr HPBT
+short: 6.5 CM Norma 130 GT
+sku: ["10166312"]
+weightGr: 130
+diameterIn: 0.264
+bc: 0.548
+dragModel: G1
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2625]
+  - [17, 2650]
+  - [18, 2665]
+  - [19, 2690]
+  - [20, 2730]
+  - [21, 2745]
+  - [22, 2800]
+  - [23, 2800]
+  - [24, 2810]
+  - [25, 2850]
+  - [26, 2860]
+notes: >-
+  Measured by rifleshooter.com at every inch from 17 to 26 in (one barrel, cut down); 16 in
+  extended. Maker's rating: 2,851 fps from a 24 in test barrel.
+sources:
+  - label: Norma 10166312
+    url: https://www.norma-ammunition.com/products/shooting/norma-golden-target/norma-golden-target-6-5-creedmoor-130gr---10166312
+  - rifleshooter-65cm-2019

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-x39-fusion-123
+caliber: 762x39
+brand: Federal
+name: Federal Fusion 123 gr SP
+short: 7.62x39 Fusion 123 SP
+sku: [F76239FS1]
+weightGr: 123
+diameterIn: 0.311
+bc: 0.297
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2005]
+  - [10.5, 2240]
+  - [16.5, 2375]
+  - [18, 2410]
+  - [18.5, 2420]
+notes: >-
+  Measured at 18 and 18.5 in (Shoot On, RECOIL); other lengths follow the LuckyGunner FMJ average
+  curve. Maker's rating: 2,350 fps (test barrel not stated).
+sources:
+  - shooton-cz600-762x39
+  - recoil-762x39
+  - label: Federal F76239FS1 (retailer listing)
+    url: https://www.targetsportsusa.com/federal-fusion-762x39mm-ammo-123-grain-soft-point-f76239fs1-p-4169.aspx

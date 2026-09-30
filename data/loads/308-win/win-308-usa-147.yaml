@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-308-usa-147
+caliber: 308-win
+brand: Winchester
+name: Winchester USA 147 gr FMJ
+short: .308 Win USA 147 FMJ
+sku: [USA3081]
+weightGr: 147
+diameterIn: 0.308
+bc: 0.415
+dragModel: G1
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2470]
+  - [14.5, 2585]
+  - [16, 2660]
+  - [16.5, 2680]
+  - [17, 2705]
+  - [18, 2740]
+  - [19, 2755]
+  - [20, 2805]
+  - [21, 2805]
+  - [22, 2835]
+  - [23, 2875]
+  - [24, 2910]
+  - [25, 2915]
+  - [26, 2955]
+  - [27, 2960]
+  - [28, 2965]
+notes: >-
+  Measured by rifleshooter.com at every inch from 28 to 16.5 in (one barrel, cut down); 12.5 to 16
+  in extended along the M80 curve. Maker's rating: 2,800 fps from a 24 in test barrel.
+  rifleshooter.com did not print the box code; it may be the 7.62x51 twin, Q3130.
+sources:
+  - label: Winchester USA3081
+    url: https://winchester.com/Products/Ammunition/Rifle/USA/USA3081
+  - rifleshooter-308-2014

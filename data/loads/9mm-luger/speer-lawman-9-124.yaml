@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: speer-lawman-9-124
+caliber: 9mm-luger
+brand: Speer
+name: Speer Lawman 124 gr TMJ
+short: 9mm Lawman 124 TMJ
+sku: ["53651"]
+sameAs: 9mm-124
+weightGr: 124
+diameterIn: 0.355
+bc: 0.159
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 1025]
+  - [4, 1045]
+  - [5, 1100]
+  - [6, 1115]
+  - [8, 1160]
+  - [10, 1195]
+  - [12, 1205]
+  - [14, 1220]
+  - [16, 1225]
+notes: >-
+  Measured at 3.39, 4 and 5.3 in (AmmoLand); other lengths follow the Ballistics by the Inch 124
+  gr curve. Maker's rating: 1,090 fps from a 4 in test barrel. Only pistol barrels were measured,
+  so carbine velocities are less certain.
+sources:
+  - ammoland-9mm-pistols
+  - label: Speer 53651
+    url: https://www.speer.com/ammunition/lawman/lawman-handgun-training/19-53651.html

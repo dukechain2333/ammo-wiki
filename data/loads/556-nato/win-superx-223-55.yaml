@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-superx-223-55
+caliber: 556-nato
+brand: Winchester
+name: Winchester Super-X 55 gr PSP
+short: .223 Win Super-X 55
+sku: [X223R]
+weightGr: 55
+diameterIn: 0.224
+bc: 0.197
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2275]
+  - [10.5, 2590]
+  - [14.5, 2905]
+  - [16, 2960]
+  - [18, 3050]
+  - [22, 3125]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,240 fps (test
+  barrel not stated).
+sources:
+  - luckygunner-223-2026
+  - label: Winchester X223R
+    url: https://winchester.com/Products/Ammunition/Rifle/Super-X?c=223+Remington

@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-65cm-143-eldx
+caliber: 65-creedmoor
+brand: Hornady
+name: Hornady Precision Hunter 143 gr ELD-X
+short: 6.5 CM Hornady 143 ELD-X
+sku: ["81499"]
+weightGr: 143
+diameterIn: 0.264
+bc: 0.314
+dragModel: G7
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2450]
+  - [17, 2480]
+  - [18, 2490]
+  - [19, 2530]
+  - [20, 2565]
+  - [21, 2600]
+  - [22, 2630]
+  - [23, 2630]
+  - [24, 2665]
+  - [25, 2680]
+  - [26, 2720]
+notes: >-
+  Measured at 24 in (American Hunter); other lengths follow the 147 gr ELD Match curve. Maker's
+  rating: 2,700 fps from a 24 in test barrel.
+sources:
+  - label: "American Hunter: Hornady Precision Hunter review (24 in)"
+    url: https://www.americanhunter.org/content/review-hornady-precision-hunter-ammunition/
+  - hornady-catalog

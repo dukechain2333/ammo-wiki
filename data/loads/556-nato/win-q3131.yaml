@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-q3131
+caliber: 556-nato
+brand: Winchester
+name: Winchester USA 55 gr FMJ (5.56, Q3131)
+short: 5.56 Win Q3131 55 FMJ
+sku: [Q3131]
+sameAs: m193
+weightGr: 55
+diameterIn: 0.224
+bc: 0.267
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2110]
+  - [7, 2310]
+  - [8, 2415]
+  - [9, 2550]
+  - [10, 2650]
+  - [11, 2720]
+  - [12, 2800]
+  - [13, 2855]
+  - [14, 2915]
+  - [16.5, 3040]
+  - [17, 3040]
+  - [18, 3070]
+  - [19, 3125]
+  - [20, 3170]
+  - [21, 3170]
+  - [22, 3220]
+  - [23, 3220]
+  - [24, 3270]
+  - [25, 3285]
+  - [26, 3290]
+notes: >-
+  From the maker's rating (3,270 fps, 24 in test barrel, assumed); other lengths follow the XM193
+  55 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Winchester Q3131
+    url: https://winchester.com/Products/Ammunition/Rifle/USA/Q3131

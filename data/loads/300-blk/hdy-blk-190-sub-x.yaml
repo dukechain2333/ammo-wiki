@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-blk-190-sub-x
+caliber: 300-blk
+brand: Hornady
+name: Hornady Subsonic 190 gr Sub-X
+short: .300 BLK Hornady 190 Sub-X
+sku: ["80877"]
+weightGr: 190
+diameterIn: 0.308
+bc: 0.437
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1030]
+  - [10.5, 1080]
+  - [16.5, 1105]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,050 fps from a 16 in test
+  barrel. Went supersonic (1,107 fps) from LuckyGunner's 16.5 in barrel.
+sources:
+  - luckygunner-300blk-2026
+  - label: Hornady 80877
+    url: https://www.hornady.com/ammunition/rifle/300-blackout-190-gr-sub-x-subsonic

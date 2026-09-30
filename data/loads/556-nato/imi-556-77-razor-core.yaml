@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: imi-556-77-razor-core
+caliber: 556-nato
+brand: IMI
+name: IMI Razor Core 77 gr OTM (Sierra MatchKing)
+short: 5.56 IMI 77 Razor Core
+sku: [IMI556R]
+weightGr: 77
+diameterIn: 0.224
+bc: 0.182
+dragModel: G7
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 1820]
+  - [8, 2070]
+  - [10, 2260]
+  - [12, 2370]
+  - [14, 2465]
+  - [16.5, 2570]
+  - [17, 2590]
+  - [18, 2620]
+  - [19, 2635]
+  - [20, 2675]
+  - [21, 2695]
+  - [22, 2710]
+  - [23, 2710]
+  - [24, 2740]
+  - [25, 2765]
+  - [26, 2785]
+notes: >-
+  From the maker's rating (2,740 fps, 24 in test barrel, assumed); other lengths follow the Black
+  Hills 68 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: IMI IMI556R
+    url: https://sierrabullets.com/22-cal-77-gr-hpbt-matchking-smk/

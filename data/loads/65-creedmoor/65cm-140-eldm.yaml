@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: 65cm-140-eldm
+caliber: 65-creedmoor
+brand: Hornady
+name: Hornady 140 gr ELD Match
+short: 6.5 CM Hornady 140 ELD-M
+sku: ["81500"]
+standard: 140 gr ELD Match
+weightGr: 140
+diameterIn: 0.264
+bc: 0.326
+dragModel: G7
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2515]
+  - [17, 2535]
+  - [18, 2550]
+  - [19, 2590]
+  - [20, 2605]
+  - [21, 2625]
+  - [22, 2645]
+  - [23, 2670]
+  - [24, 2695]
+  - [25, 2730]
+  - [26, 2745]
+notes: >-
+  Measured at 18, 22, 24 and 26 in (RECOIL, rifleshooter.com, PrecisionRifleBlog); other lengths
+  follow the American Gunner 140 gr curve. Maker's rating: 2,710 fps from a 24 in test barrel.
+sources:
+  - label: "RECOIL: shorter 6.5 Creedmoor study (18 in)"
+    url: https://www.recoilweb.com/baby-barrel-creedmoor-study-of-a-shorter-6-5-creedmoor-rifle-154581.html
+  - rifleshooter-65cm-rifles-2019
+  - precisionrifleblog-65cm-2021
+  - label: Hornady 81500
+    url: https://www.hornady.com/ammunition/rifle/6-5-creedmoor-140-gr-eld-match

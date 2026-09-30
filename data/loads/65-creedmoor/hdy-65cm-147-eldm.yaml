@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-65cm-147-eldm
+caliber: 65-creedmoor
+brand: Hornady
+name: Hornady 147 gr ELD Match
+short: 6.5 CM Hornady 147 ELD-M
+sku: ["81501"]
+weightGr: 147
+diameterIn: 0.264
+bc: 0.351
+dragModel: G7
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2460]
+  - [17, 2490]
+  - [18, 2500]
+  - [19, 2540]
+  - [20, 2575]
+  - [21, 2610]
+  - [22, 2640]
+  - [23, 2640]
+  - [24, 2675]
+  - [25, 2690]
+  - [26, 2730]
+notes: >-
+  Measured by rifleshooter.com at every inch from 17 to 26 in (one barrel, cut down); 16 in
+  extended. Maker's rating: 2,695 fps from a 24 in test barrel.
+sources:
+  - hornady-catalog
+  - rifleshooter-65cm-2019

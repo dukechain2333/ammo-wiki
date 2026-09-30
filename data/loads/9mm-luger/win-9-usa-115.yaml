@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-9-usa-115
+caliber: 9mm-luger
+brand: Winchester
+name: Winchester USA 115 gr FMJ
+short: 9mm Win USA 115
+sku: [Q4172, USA9W, USA9MMVP]
+sameAs: 9mm-115
+weightGr: 115
+diameterIn: 0.355
+bc: 0.145
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1190]
+  - [5, 1270]
+  - [6, 1290]
+  - [8, 1340]
+  - [10, 1365]
+  - [12, 1395]
+  - [14, 1410]
+  - [16, 1410]
+  - [18, 1410]
+notes: >-
+  From the maker's rating (1,190 fps, 4 in test barrel, assumed); other lengths follow the
+  Ballistics by the Inch 115 gr curve. Factory ratings often run fast, so a chronograph value is
+  better.
+sources:
+  - label: Winchester Q4172
+    url: https://winchester.com/Products/Ammunition/Handgun/USA/Q4172

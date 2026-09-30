@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sig-65cm-elite-match-140
+caliber: 65-creedmoor
+brand: Sig Sauer
+name: Sig Sauer Elite Match 140 gr OTM
+short: 6.5 CM Sig 140 OTM
+sku: [E65CM1-20]
+weightGr: 140
+diameterIn: 0.264
+bc: 0.535
+dragModel: G1
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2500]
+  - [17, 2520]
+  - [18, 2535]
+  - [19, 2575]
+  - [20, 2590]
+  - [21, 2610]
+  - [22, 2630]
+  - [23, 2655]
+  - [24, 2675]
+  - [25, 2710]
+  - [26, 2725]
+notes: >-
+  Measured at 22 and 24 in (PrecisionRifleBlog); other lengths follow the American Gunner 140 gr
+  curve. Maker's rating: 2,690 fps from a 24 in test barrel.
+sources:
+  - precisionrifleblog-65cm-2021
+  - label: Sig Sauer E65CM1-20
+    url: https://www.sigsauer.com/6-5-creedmoor-140gr-elite-match-grade-otm.html

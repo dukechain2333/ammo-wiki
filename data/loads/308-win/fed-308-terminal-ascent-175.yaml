@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-308-terminal-ascent-175
+caliber: 308-win
+brand: Federal
+name: Federal Terminal Ascent 175 gr
+short: .308 Terminal Ascent 175
+sku: [P308TA1]
+weightGr: 175
+diameterIn: 0.308
+bc: 0.258
+dragModel: G7
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2240]
+  - [14.5, 2345]
+  - [16, 2415]
+  - [16.5, 2430]
+  - [17, 2445]
+  - [18, 2490]
+  - [19, 2495]
+  - [20, 2530]
+  - [21, 2545]
+  - [22, 2560]
+  - [23, 2585]
+  - [24, 2600]
+  - [25, 2625]
+  - [26, 2640]
+  - [27, 2660]
+  - [28, 2670]
+notes: >-
+  From the maker's rating (2,600 fps, 24 in test barrel); other lengths follow the Gold Medal 168
+  gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Federal P308TA1
+    url: https://www.federalpremium.com/rifle/terminal-ascent/11-P308TA1.html

@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: wolf-x39-mc-124
+caliber: 762x39
+brand: Wolf
+name: Wolf Military Classic 124 gr FMJ (steel case)
+short: 7.62x39 Wolf MC 124 FMJ
+sku: [MC762FMJ, MC762BFMJ]
+sameAs: 762x39-123
+weightGr: 124
+diameterIn: 0.311
+bc: 0.28
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1895]
+  - [10.5, 2115]
+  - [16.5, 2245]
+notes: >-
+  Measured at 12.5 and 16 in (Gun Digest); other lengths follow the LuckyGunner FMJ average curve.
+  Maker's rating: 2,330 fps (test barrel not stated). The maker publishes no BC; 0.28 is typical
+  of bimetal-jacket FMJ.
+sources:
+  - gundigest-ak-ammo
+  - label: Wolf MC762FMJ (retailer listing)
+    url: https://www.targetsportsusa.com/wolf-military-classic-762x39mm-ammo-124-gr-fmj-steel-case-mc762fmj-p-3044.aspx

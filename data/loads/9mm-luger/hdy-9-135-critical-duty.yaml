@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-9-135-critical-duty
+caliber: 9mm-luger
+brand: Hornady
+name: Hornady Critical Duty 135 gr FlexLock +P
+short: 9mm Hornady 135 +P
+sku: ["90226"]
+weightGr: 135
+diameterIn: 0.355
+bc: 0.195
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 1090]
+  - [4, 1110]
+  - [5, 1165]
+  - [6, 1180]
+  - [8, 1230]
+  - [10, 1265]
+  - [12, 1280]
+  - [14, 1295]
+  - [16, 1300]
+notes: >-
+  Measured at 3.39, 4 and 5.3 in (AmmoLand); other lengths follow the Ballistics by the Inch 124
+  gr curve. Maker's rating: 1,110 fps from a 4 in test barrel. Only pistol barrels were measured,
+  so carbine velocities are less certain.
+sources:
+  - ammoland-9mm-pistols
+  - label: Hornady 90226
+    url: https://www.hornady.com/ammunition/handgun/9mm-luger-p-135-gr-flexlock-critical-duty

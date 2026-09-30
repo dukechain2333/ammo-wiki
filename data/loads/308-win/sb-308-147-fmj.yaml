@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sb-308-147-fmj
+caliber: 308-win
+brand: Sellier & Bellot
+name: Sellier & Bellot 147 gr FMJ
+short: .308 S&B 147 FMJ
+sku: [SB308A, V331592]
+weightGr: 147
+diameterIn: 0.308
+bc: 0.204
+dragModel: G7
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2395]
+  - [14.5, 2510]
+  - [16, 2585]
+  - [18, 2660]
+  - [20, 2725]
+  - [22, 2760]
+  - [24, 2795]
+notes: >-
+  Measured at 20 and 24 in (Sniper Central); other lengths follow the M80 ball curve. Maker's
+  rating: 2,789 fps from a 23.6 in test barrel.
+sources:
+  - snipercentral-m80
+  - label: Sellier & Bellot SB308A
+    url: https://www.sellierbellot.us/products/rifle-ammunition/rifle-ammunition-fmj/detail/145/

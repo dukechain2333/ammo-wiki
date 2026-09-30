@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-65cm-fusion-140
+caliber: 65-creedmoor
+brand: Federal
+name: Federal Fusion 140 gr SP
+short: 6.5 CM Fusion 140 SP
+sku: [F65CRDFS1]
+weightGr: 140
+diameterIn: 0.264
+bc: 0.439
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2420]
+  - [17, 2440]
+  - [18, 2455]
+  - [19, 2490]
+  - [20, 2505]
+  - [21, 2525]
+  - [22, 2545]
+  - [23, 2570]
+  - [24, 2590]
+  - [25, 2625]
+  - [26, 2640]
+notes: >-
+  Measured at 20 in (American Hunter); other lengths follow the American Gunner 140 gr curve.
+  Maker's rating: 2,725 fps from a 24 in test barrel.
+sources:
+  - label: "American Hunter: Federal Fusion 6.5 CM first look (20 in)"
+    url: https://www.americanhunter.org/articles/2017/7/5/first-look-federal-fusion-65-creedmoor/
+  - label: Federal F65CRDFS1
+    url: https://www.federalpremium.com/rifle/fusion/11-F65CRDFS1.html

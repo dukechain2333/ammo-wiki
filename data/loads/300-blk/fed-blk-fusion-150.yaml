@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-blk-fusion-150
+caliber: 300-blk
+brand: Federal
+name: Federal Fusion MSR 150 gr SP
+short: .300 BLK Fusion 150 SP
+sku: [F300BMSR2]
+weightGr: 150
+diameterIn: 0.308
+bc: 0.33
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1715]
+  - [10.5, 1855]
+  - [16.5, 1960]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,900 fps (test barrel not
+  stated).
+sources:
+  - luckygunner-300blk-2026
+  - label: Federal F300BMSR2
+    url: https://www.federalpremium.com/rifle/fusion-msr/11-F300BMSR2.html

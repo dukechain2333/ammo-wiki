@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-x39-123-sst
+caliber: 762x39
+brand: Hornady
+name: Hornady BLACK 123 gr SST
+short: 7.62x39 Hornady 123 SST
+sku: ["80784"]
+weightGr: 123
+diameterIn: 0.31
+bc: 0.26
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1925]
+  - [10.5, 2145]
+  - [16.5, 2300]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,350 fps from a 20 in test
+  barrel.
+sources:
+  - luckygunner-762x39-2026
+  - label: Hornady 80784
+    url: https://www.hornady.com/ammunition/rifle/7.62x39-123-gr-sst-black

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: blk-150-fmj
+caliber: 300-blk
+brand: Federal
+name: Federal American Eagle 150 gr FMJ
+short: .300 BLK AE 150 FMJ
+sku: [AE300BLK1]
+standard: 150 gr FMJ supersonic
+weightGr: 150
+diameterIn: 0.308
+bc: 0.406
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1680]
+  - [10.5, 1815]
+  - [16.5, 1910]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,900 fps (test barrel not
+  stated).
+sources:
+  - label: Federal AE300BLK1
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-AE300BLK1.html
+  - luckygunner-300blk-2026

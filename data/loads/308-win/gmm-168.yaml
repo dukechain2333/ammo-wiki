@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: gmm-168
+caliber: 308-win
+brand: Federal
+name: Federal Gold Medal 168 gr Sierra MatchKing
+short: .308 GMM 168 SMK
+sku: [GM308M]
+standard: 168 gr Sierra MatchKing match
+weightGr: 168
+diameterIn: 0.308
+bc: 0.224
+dragModel: G7
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2270]
+  - [14.5, 2375]
+  - [16, 2445]
+  - [16.5, 2465]
+  - [17, 2480]
+  - [18, 2525]
+  - [19, 2530]
+  - [20, 2565]
+  - [21, 2580]
+  - [22, 2595]
+  - [23, 2620]
+  - [24, 2635]
+  - [25, 2660]
+  - [26, 2675]
+  - [27, 2695]
+  - [28, 2705]
+notes: >-
+  Measured by rifleshooter.com at every inch from 28 to 16.5 in (one barrel, cut down); 12.5 to 16
+  in extended along the M80 curve. Maker's rating: 2,650 fps from a 24 in test barrel. A gas gun
+  may run 10-30 fps slower than this bolt gun.
+sources:
+  - label: Federal GM308M
+    url: https://www.federalpremium.com/rifle/gold-medal/gold-medal-rifle/11-GM308M.html
+  - rifleshooter-308-2014

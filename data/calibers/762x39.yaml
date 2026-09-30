@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../schema/caliber.schema.json
+id: 762x39
+name: 7.62x39
+short: 7.62×39
+order: 4
+aliases: [7.62x39mm, AK, AK-47, AK47, SKS, M43]
+bulletDiameterIn: 0.311
+barrelPresetsIn: [7.5, 10.5, 12.5, 16]
+defaultBarrelIn: 16
+tableRangeYd: 400
+description: >-
+  The Soviet intermediate cartridge of 1943, fired from the SKS and the AK family. Much of the
+  ammunition on the market is steel-cased with bimetal jackets, and bullet diameter varies between
+  0.310 and 0.312 in by maker.
+drawing: { caseLength: 38.7, overallLength: 56.0, base: 11.35, shoulder: 10.07, shoulderAt: 30.5, neckAt: 33.0, neck: 8.6, bullet: 7.9 }

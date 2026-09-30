@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fiocchi-223-77-sbr
+caliber: 556-nato
+brand: Fiocchi
+name: Fiocchi Hyperformance Defense 77 gr HPBT SBR
+short: .223 Fiocchi 77 SBR
+sku: [223SBRD]
+weightGr: 77
+diameterIn: 0.224
+bc: 0.372
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 1860]
+  - [10.5, 2175]
+  - [14.5, 2445]
+  - [16, 2495]
+  - [18, 2535]
+  - [22, 2555]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 2,750 fps (test
+  barrel not stated). Fiocchi's 2,750 fps rating is well above what any tested barrel reached.
+sources:
+  - luckygunner-223-2026
+  - label: Fiocchi 223SBRD
+    url: https://www.fiocchiusa.com/centerfire-rifle/hyperformance-defense-rifle/33-223SBRD.html

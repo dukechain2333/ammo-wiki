@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: gmm-175
+caliber: 308-win
+brand: Federal
+name: Federal Gold Medal 175 gr Sierra MatchKing (M118LR class)
+short: .308 GMM 175 SMK
+sku: [GM308M2]
+standard: M118LR / 175 gr Sierra MatchKing match
+weightGr: 175
+diameterIn: 0.308
+bc: 0.25
+dragModel: G7
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2255]
+  - [14.5, 2360]
+  - [16, 2430]
+  - [16.5, 2450]
+  - [17, 2465]
+  - [18, 2510]
+  - [19, 2515]
+  - [20, 2550]
+  - [21, 2565]
+  - [22, 2580]
+  - [23, 2605]
+  - [24, 2620]
+  - [25, 2645]
+  - [26, 2660]
+  - [27, 2680]
+  - [28, 2690]
+notes: >-
+  Measured at 24 in (Sniper Central); other lengths follow the Gold Medal 168 gr curve. Maker's
+  rating: 2,600 fps from a 24 in test barrel.
+sources:
+  - snipercentral-308-175
+  - label: Federal GM308M2
+    url: https://www.federalpremium.com/rifle/gold-medal/gold-medal-rifle/11-GM308M2.html

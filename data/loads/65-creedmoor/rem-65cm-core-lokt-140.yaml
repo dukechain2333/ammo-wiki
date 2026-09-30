@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: rem-65cm-core-lokt-140
+caliber: 65-creedmoor
+brand: Remington
+name: Remington Core-Lokt 140 gr PSP
+short: 6.5 CM Core-Lokt 140
+sku: [R65CR1, "27657"]
+weightGr: 140
+diameterIn: 0.264
+bc: 0.41
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2520]
+  - [17, 2540]
+  - [18, 2555]
+  - [19, 2600]
+  - [20, 2615]
+  - [21, 2635]
+  - [22, 2655]
+  - [23, 2680]
+  - [24, 2700]
+  - [25, 2735]
+  - [26, 2750]
+notes: >-
+  From the maker's rating (2,700 fps, 24 in test barrel); other lengths follow the American Gunner
+  140 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Remington R65CR1
+    url: https://www.remington.com/rifle/core-lokt/29-27657.html

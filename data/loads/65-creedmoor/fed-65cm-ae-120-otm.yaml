@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-65cm-ae-120-otm
+caliber: 65-creedmoor
+brand: Federal
+name: Federal American Eagle 120 gr OTM
+short: 6.5 CM AE 120 OTM
+sku: [AE65CRD2]
+weightGr: 120
+diameterIn: 0.264
+bc: 0.421
+dragModel: G1
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2620]
+  - [17, 2645]
+  - [18, 2685]
+  - [19, 2705]
+  - [20, 2745]
+  - [21, 2755]
+  - [22, 2785]
+  - [23, 2825]
+  - [24, 2840]
+  - [25, 2875]
+  - [26, 2885]
+notes: >-
+  Measured by rifleshooter.com at every inch from 17 to 26 in (one barrel, cut down); 16 in
+  extended. Maker's rating: 2,900 fps from a 24 in test barrel.
+sources:
+  - label: Federal AE65CRD2
+    url: https://www.federalpremium.com/rifle/american-eagle/american-eagle-rifle/11-AE65CRD2.html
+  - rifleshooter-65cm-2019

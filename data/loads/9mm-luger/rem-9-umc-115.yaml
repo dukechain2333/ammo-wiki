@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: rem-9-umc-115
+caliber: 9mm-luger
+brand: Remington
+name: Remington UMC 115 gr FMJ
+short: 9mm UMC 115 FMJ
+sku: [L9MM3, "23728", L9MM3B, "23765", L9MM3A, "23777"]
+sameAs: 9mm-115
+weightGr: 115
+diameterIn: 0.355
+bc: 0.155
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1145]
+  - [5, 1220]
+  - [6, 1245]
+  - [8, 1290]
+  - [10, 1310]
+  - [12, 1340]
+  - [14, 1355]
+  - [16, 1355]
+  - [18, 1355]
+notes: >-
+  From the maker's rating (1,145 fps, 4 in test barrel); other lengths follow the Ballistics by
+  the Inch 115 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Remington L9MM3
+    url: https://www.remington.com/handgun/umc-handgun/29-23728.html

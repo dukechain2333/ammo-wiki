@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-xm80c
+caliber: 308-win
+brand: Federal
+name: Federal American Eagle XM80C 149 gr FMJ BT (M80 ball)
+short: 7.62 XM80C 149 FMJ
+sku: [XM80C, XM80CL]
+sameAs: m80
+weightGr: 149
+diameterIn: 0.308
+bc: 0.408
+dragModel: G1
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2480]
+  - [14.5, 2595]
+  - [16, 2670]
+  - [18, 2750]
+  - [20, 2820]
+  - [22, 2855]
+  - [24, 2890]
+notes: >-
+  Measured at 20 and 24 in (Sniper Central); other lengths follow the M80 ball curve. Maker's
+  rating: 2,790 fps from a 24 in test barrel. Listings quote 2,750 or 2,790 fps; both measured
+  rifles ran faster.
+sources:
+  - snipercentral-m80
+  - label: Federal XM80C (retailer listing)
+    url: https://www.targetsportsusa.com/federal-762x51mm-nato-ammo-149-grain-full-metal-jacket-xm80cl-p-2900.aspx

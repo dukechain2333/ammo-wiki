@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-223-55-critical-defense
+caliber: 556-nato
+brand: Hornady
+name: Hornady Critical Defense 55 gr FTX
+short: .223 Hornady 55 FTX
+sku: ["80270"]
+weightGr: 55
+diameterIn: 0.224
+bc: 0.175
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2190]
+  - [10.5, 2580]
+  - [14.5, 2785]
+  - [16, 2905]
+  - [18, 2970]
+  - [22, 3025]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,240 fps from a 24
+  in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Hornady 80270
+    url: https://www.hornady.com/ammunition/rifle/223-remington-55-gr-critical-defense

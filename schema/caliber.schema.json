@@ -1,0 +1,143 @@
+{
+  "title": "Ammo Wiki caliber",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Same as the file name, and the folder name under data/loads/."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Full name, e.g. \"5.56 NATO / .223 Rem\"."
+    },
+    "short": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 20,
+      "description": "Short name for chips and tables."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": -9007199254740991,
+      "maximum": 9007199254740991,
+      "description": "Position in lists, smallest first."
+    },
+    "aliases": {
+      "default": [],
+      "description": "Other names people search for.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "bulletDiameterIn": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 1
+    },
+    "barrelPresetsIn": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 1,
+        "maximum": 40
+      },
+      "description": "Barrel lengths offered as quick picks, inches."
+    },
+    "defaultBarrelIn": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 40,
+      "description": "Barrel length a load page opens with, inches."
+    },
+    "tableRangeYd": {
+      "type": "integer",
+      "minimum": 50,
+      "maximum": 2000,
+      "description": "Longest range of the trajectory table, yards."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "drawing": {
+      "type": "object",
+      "properties": {
+        "caseLength": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "overallLength": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "base": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "shoulder": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "shoulderAt": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "neckAt": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "neck": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "bullet": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "shank": {
+          "description": "Share of the exposed bullet that is straight, 0 to 1.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "ogive": {
+          "description": "Where the nose curve's control point sits, 0 to 1; higher is blunter.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "caseLength",
+        "overallLength",
+        "base",
+        "shoulder",
+        "shoulderAt",
+        "neckAt",
+        "neck",
+        "bullet"
+      ],
+      "additionalProperties": false,
+      "description": "Cartridge outline in millimetres, measured from the case head, for the drawing on caliber pages."
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "short",
+    "order",
+    "bulletDiameterIn",
+    "barrelPresetsIn",
+    "defaultBarrelIn",
+    "tableRangeYd",
+    "description",
+    "drawing"
+  ],
+  "additionalProperties": false
+}

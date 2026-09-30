@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: pmc-308-bronze-147
+caliber: 308-win
+brand: PMC
+name: PMC Bronze 147 gr FMJ BT
+short: .308 PMC 147 FMJ
+sku: [308B]
+weightGr: 147
+diameterIn: 0.308
+bc: 0.398
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2385]
+  - [14.5, 2495]
+  - [16, 2570]
+  - [18, 2650]
+  - [20, 2710]
+  - [22, 2745]
+  - [24, 2780]
+notes: >-
+  From the maker's rating (2,780 fps, 24 in test barrel); other lengths follow the M80 ball curve.
+  Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: PMC 308B
+    url: https://pmcammo.com/product/bronze-308b/

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: gmm-69
+caliber: 556-nato
+brand: Federal
+name: Federal Gold Medal 69 gr Sierra MatchKing
+short: .223 GMM 69 gr SMK
+sku: [GM223M]
+standard: 69 gr Sierra MatchKing match
+weightGr: 69
+diameterIn: 0.224
+bc: 0.165
+dragModel: G7
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 1914]
+  - [10.5, 2317]
+  - [14.5, 2625]
+  - [16, 2737]
+  - [18, 2737]
+  - [22, 2808]
+notes: >-
+  Measured; 18 in smoothed by 2 fps.
+sources:
+  - luckygunner-223-2026
+  - label: Federal GM223M
+    url: https://www.federalpremium.com/rifle/gold-medal/gold-medal-sierra-matchking/11-GM223M.html

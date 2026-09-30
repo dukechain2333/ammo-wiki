@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-blk-frontier-208-sub
+caliber: 300-blk
+brand: Hornady
+name: Hornady Frontier 208 gr FMJ subsonic
+short: .300 BLK Frontier 208 sub
+sku: [FR410]
+weightGr: 208
+diameterIn: 0.308
+bc: 0.56
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1045]
+  - [10.5, 1080]
+  - [16.5, 1100]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,025 fps from a 24 in test
+  barrel. Hornady publishes no BC for this bullet; 0.56 is borrowed from the similar 200 gr FMJ
+  subsonic loads.
+sources:
+  - luckygunner-300blk-2026
+  - label: Hornady FR410
+    url: https://www.hornady.com/ammunition/rifle/300-blackout-208-gr-fmj-frontier

@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-65cm-gm-130-berger
+caliber: 65-creedmoor
+brand: Federal
+name: Federal Gold Medal 130 gr Berger Hybrid
+short: 6.5 CM GM 130 Berger
+sku: [GM65CRDBH130]
+weightGr: 130
+diameterIn: 0.264
+bc: 0.287
+dragModel: G7
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2630]
+  - [17, 2655]
+  - [18, 2670]
+  - [19, 2695]
+  - [20, 2735]
+  - [21, 2750]
+  - [22, 2805]
+  - [23, 2805]
+  - [24, 2815]
+  - [25, 2855]
+  - [26, 2865]
+notes: >-
+  Measured at 22, 24 and 26 in (PrecisionRifleBlog, rifleshooter.com); other lengths follow the
+  Norma 130 gr curve. Maker's rating: 2,875 fps from a 24 in test barrel. Federal's catalogs list
+  2,825 fps; the product page says 2,875.
+sources:
+  - precisionrifleblog-65cm-2021
+  - rifleshooter-65cm-rifles-2019
+  - label: Federal GM65CRDBH130
+    url: https://www.federalpremium.com/rifle/gold-medal/gold-medal-berger/11-GM65CRDBH130.html

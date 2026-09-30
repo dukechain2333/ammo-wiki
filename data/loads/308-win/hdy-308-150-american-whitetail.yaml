@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-308-150-american-whitetail
+caliber: 308-win
+brand: Hornady
+name: Hornady American Whitetail 150 gr InterLock
+short: .308 Hornady 150 InterLock
+sku: ["8090"]
+weightGr: 150
+diameterIn: 0.308
+bc: 0.338
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2420]
+  - [14.5, 2535]
+  - [16, 2605]
+  - [18, 2685]
+  - [20, 2750]
+  - [22, 2785]
+  - [24, 2820]
+notes: >-
+  From the maker's rating (2,820 fps, 24 in test barrel); other lengths follow the M80 ball curve.
+  Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Hornady 8090 (retailer listing)
+    url: https://gritrsports.com/hornady-american-whitetail-308-win-ammo-8090

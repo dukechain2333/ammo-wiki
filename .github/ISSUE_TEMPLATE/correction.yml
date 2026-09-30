@@ -1,0 +1,23 @@
+name: Report a problem with a load
+description: A wrong number, broken link or missing source.
+labels: [data, correction]
+body:
+  - type: input
+    id: load
+    attributes:
+      label: Load id or page
+      description: The id is the last part of the page address, e.g. fed-xm193.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Which field, what it says, and what it should say.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source for the correction
+      description: A link or reference a reviewer can check.

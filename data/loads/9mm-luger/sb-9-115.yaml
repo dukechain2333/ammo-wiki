@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sb-9-115
+caliber: 9mm-luger
+brand: Sellier & Bellot
+name: Sellier & Bellot 115 gr FMJ
+short: 9mm S&B 115 FMJ
+sku: [SB9A]
+sameAs: 9mm-115
+weightGr: 115
+diameterIn: 0.355
+bc: 0.116
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1180]
+  - [5, 1255]
+  - [6, 1280]
+  - [8, 1330]
+  - [10, 1350]
+  - [12, 1380]
+  - [14, 1395]
+  - [16, 1395]
+  - [18, 1395]
+notes: >-
+  From the maker's rating (1,280 fps, 6 in test barrel); other lengths follow the Ballistics by
+  the Inch 115 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Sellier & Bellot SB9A
+    url: https://www.sellierbellot.us/products/pistol-and-revolver-ammunition/pistol-and-revolver-cartridges/

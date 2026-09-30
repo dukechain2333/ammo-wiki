@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-superx-223-64
+caliber: 556-nato
+brand: Winchester
+name: Winchester Super-X 64 gr Power-Point
+short: .223 Win 64 Power-Point
+sku: [X223R2]
+weightGr: 64
+diameterIn: 0.224
+bc: 0.257
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2030]
+  - [7, 2185]
+  - [8, 2300]
+  - [9, 2405]
+  - [10, 2470]
+  - [11, 2555]
+  - [12, 2600]
+  - [13, 2650]
+  - [14, 2695]
+  - [16.5, 2820]
+  - [17, 2820]
+  - [18, 2885]
+  - [19, 2895]
+  - [20, 2930]
+  - [21, 2950]
+  - [22, 2990]
+  - [23, 3000]
+  - [24, 3020]
+  - [25, 3060]
+  - [26, 3105]
+notes: >-
+  From the maker's rating (3,020 fps, 24 in test barrel, assumed); other lengths follow the M855
+  62 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Winchester X223R2
+    url: https://winchester.com/Products/Ammunition/Rifle/Power-Point?c=223+Remington

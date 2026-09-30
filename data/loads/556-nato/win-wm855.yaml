@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-wm855
+caliber: 556-nato
+brand: Winchester
+name: Winchester USA M855 62 gr FMJ (green tip)
+short: 5.56 Win M855 62 gr
+sku: [WM855200, WM855150]
+sameAs: m855
+weightGr: 62
+diameterIn: 0.224
+bc: 0.304
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2255]
+  - [10.5, 2655]
+  - [14.5, 2920]
+  - [16, 2990]
+  - [18, 3060]
+  - [22, 3110]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 3,060 fps (test
+  barrel not stated). Winchester publishes no BC; this is the generic M855 figure.
+sources:
+  - luckygunner-223-2026
+  - label: Winchester WM855200
+    url: https://winchester.com/Products/Ammunition/Rifle/USA/WM855200

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: speer-223-75-gold-dot
+caliber: 556-nato
+brand: Speer
+name: Speer Gold Dot 75 gr SP
+short: .223 Gold Dot 75
+sku: ["24469", "24475"]
+weightGr: 75
+diameterIn: 0.224
+bc: 0.4
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 1925]
+  - [10.5, 2275]
+  - [14.5, 2500]
+  - [16, 2550]
+  - [18, 2615]
+  - [22, 2650]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 2,775 fps from a 24
+  in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Speer 24469
+    url: https://www.speer.com/ammunition/gold-dot/rifle/gold-dot-rifle-personal-protection/19-24469.html

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sb-x39-124-fmj
+caliber: 762x39
+brand: Sellier & Bellot
+name: Sellier & Bellot 124 gr FMJ
+short: 7.62x39 S&B 124 FMJ
+sku: [SB76239A, V340842, V340832]
+sameAs: 762x39-123
+weightGr: 124
+diameterIn: 0.311
+bc: 0.143
+dragModel: G7
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1980]
+  - [10.5, 2160]
+  - [16.5, 2310]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,421 fps from a 20.5 in test
+  barrel.
+sources:
+  - luckygunner-762x39-2026
+  - label: Sellier & Bellot SB76239A
+    url: https://www.sellier-bellot.cz/en/products/rifle-ammunition/rifle-ammunition-training-fmj/detail/216/

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: rem-blk-umc-220-sub
+caliber: 300-blk
+brand: Remington
+name: Remington UMC 220 gr OTFB subsonic
+short: .300 BLK Rem 220 sub
+sku: [L300AAC4, "21422", L300AAC4BP, "20109"]
+sameAs: blk-220-sub
+weightGr: 220
+diameterIn: 0.308
+bc: 0.68
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 860]
+  - [10.5, 900]
+  - [16.5, 945]
+notes: >-
+  From the maker's rating (940 fps, 16 in test barrel, assumed); other lengths follow the Sellier
+  & Bellot 200 gr subsonic curve. Factory ratings often run fast, so a chronograph value is
+  better. Some retailers still list 1,015 fps.
+sources:
+  - label: Remington L300AAC4
+    url: https://www.remington.com/rifle/umc-rifle/29-21422.html

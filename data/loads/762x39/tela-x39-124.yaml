@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: tela-x39-124
+caliber: 762x39
+brand: TelaAmmo
+name: TelaAmmo 124 gr FMJ (steel case)
+short: 7.62x39 Tela 124 FMJ
+sameAs: 762x39-123
+weightGr: 124
+diameterIn: 0.311
+bc: 0.28
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2045]
+  - [10.5, 2275]
+  - [16.5, 2435]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,354 fps (test barrel not
+  stated). The maker publishes no BC; 0.28 is typical of bimetal-jacket FMJ.
+sources:
+  - luckygunner-762x39-2026
+  - label: TelaAmmo (importer page)
+    url: https://www.telaimpex.com/ecomm/product/telaammo-usa-76239-ammunition

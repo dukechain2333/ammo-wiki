@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: tula-223-55
+caliber: 556-nato
+brand: TulAmmo
+name: TulAmmo 55 gr FMJ (steel case)
+short: .223 Tula 55 FMJ
+sku: [TA223550, TA223540, TA223100, TA223551]
+weightGr: 55
+diameterIn: 0.224
+bc: 0.246
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2090]
+  - [7, 2290]
+  - [8, 2395]
+  - [9, 2530]
+  - [10, 2630]
+  - [11, 2695]
+  - [12, 2775]
+  - [13, 2830]
+  - [14, 2890]
+  - [16.5, 3015]
+  - [17, 3015]
+  - [18, 3040]
+  - [19, 3100]
+  - [20, 3140]
+  - [21, 3140]
+  - [22, 3195]
+  - [23, 3195]
+  - [24, 3240]
+  - [25, 3255]
+  - [26, 3260]
+notes: >-
+  From the maker's rating (3,241 fps, 24 in test barrel, assumed); other lengths follow the XM193
+  55 gr curve. Factory ratings often run fast, so a chronograph value is better. Tula publishes no
+  BC; this is the generic M193 figure. Tula has also published 2,953 fps for this load.
+sources:
+  - label: TulAmmo TA223550 (archived page)
+    url: https://web.archive.org/web/20131208234635/http://tulammousa.com/products/centerfire-rifle-cartridges/223-rem/

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: pmc-x39-123
+caliber: 762x39
+brand: PMC
+name: PMC Bronze 123 gr FMJ
+short: 7.62x39 PMC 123 FMJ
+sku: [7.62A]
+sameAs: 762x39-123
+weightGr: 123
+diameterIn: 0.311
+bc: 0.266
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1935]
+  - [10.5, 2180]
+  - [16.5, 2330]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,350 fps from a 20 in test
+  barrel.
+sources:
+  - luckygunner-762x39-2026
+  - label: PMC 7.62A
+    url: https://pmcammo.com/product/bronze-7-62a/

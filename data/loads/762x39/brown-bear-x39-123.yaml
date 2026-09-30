@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: brown-bear-x39-123
+caliber: 762x39
+brand: Brown Bear
+name: Brown Bear 123 gr FMJ (steel case)
+short: 7.62x39 Brown Bear 123
+sku: [AB762FMJ, AP762FMJ]
+sameAs: 762x39-123
+weightGr: 123
+diameterIn: 0.311
+bc: 0.29
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2030]
+  - [10.5, 2265]
+  - [16.5, 2405]
+  - [18.5, 2450]
+notes: >-
+  Measured at 18.5 in (RECOIL); other lengths follow the LuckyGunner FMJ average curve. Maker's
+  rating: 2,396 fps (test barrel not stated). The BC is Barnaul's published figure for its 123 gr
+  FMJ. Russian-made; imports have stopped, but plenty is still around.
+sources:
+  - recoil-762x39
+  - label: Brown Bear AB762FMJ (retailer listing)
+    url: https://www.ammunitiontogo.com/20rds-762x39-brown-bear-123gr-lacquer-fmj-ammo

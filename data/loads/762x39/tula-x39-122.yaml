@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: tula-x39-122
+caliber: 762x39
+brand: TulAmmo
+name: TulAmmo 122 gr FMJ (steel case)
+short: 7.62x39 Tula 122 FMJ
+sku: [UL076240, UL076201]
+sameAs: 762x39-123
+weightGr: 122
+diameterIn: 0.311
+bc: 0.28
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2010]
+  - [10.5, 2245]
+  - [16.5, 2380]
+  - [18, 2415]
+  - [18.5, 2425]
+notes: >-
+  Measured at 8.5, 16, 18 and 18.5 in (Ultimate Reloader, Shoot On, RECOIL); other lengths follow
+  the LuckyGunner FMJ average curve. Maker's rating: 2,396 fps (test barrel not stated). The maker
+  publishes no BC; 0.28 is typical of bimetal-jacket FMJ. Russian-made; imports have stopped, but
+  plenty is still around.
+sources:
+  - ultimatereloader-762x39
+  - shooton-cz600-762x39
+  - recoil-762x39
+  - label: TulAmmo UL076240
+    url: https://maxxtechammo.com/maxxtech-nfr-7-62x39/

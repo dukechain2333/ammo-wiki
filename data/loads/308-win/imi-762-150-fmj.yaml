@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: imi-762-150-fmj
+caliber: 308-win
+brand: IMI
+name: IMI 7.62x51 150 gr FMJ
+short: 7.62 IMI 150 FMJ
+sameAs: m80
+weightGr: 150
+diameterIn: 0.308
+bc: 0.398
+dragModel: G1
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2360]
+  - [14.5, 2470]
+  - [16, 2540]
+  - [16.5, 2560]
+  - [17, 2575]
+  - [18, 2595]
+  - [19, 2635]
+  - [20, 2680]
+  - [21, 2685]
+  - [22, 2720]
+  - [23, 2745]
+  - [24, 2765]
+  - [25, 2770]
+  - [26, 2800]
+  - [27, 2800]
+  - [28, 2825]
+notes: >-
+  Measured by rifleshooter.com at every inch from 28 to 16.5 in (one barrel, cut down); 12.5 to 16
+  in extended along the M80 curve. IMI publishes no velocity or BC; the BC is the generic M80
+  figure.
+sources:
+  - rifleshooter-308-2014

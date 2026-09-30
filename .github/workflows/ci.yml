@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Data first: these are the errors contributors are most likely to hit, shown inline on the PR.
+      - name: Validate data
+        run: npm run validate
+      - name: JSON Schemas are up to date
+        run: npx tsx scripts/build-schema.ts --check
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build

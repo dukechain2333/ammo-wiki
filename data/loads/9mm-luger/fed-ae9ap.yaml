@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-ae9ap
+caliber: 9mm-luger
+brand: Federal
+name: Federal American Eagle 124 gr FMJ
+short: 9mm AE 124 FMJ
+sku: [AE9AP]
+sameAs: 9mm-124
+weightGr: 124
+diameterIn: 0.355
+bc: 0.152
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1150]
+  - [5, 1210]
+  - [6, 1225]
+  - [8, 1280]
+  - [10, 1315]
+  - [12, 1330]
+  - [14, 1345]
+  - [16, 1345]
+notes: >-
+  From the maker's rating (1,150 fps, 4 in test barrel); other lengths follow the Ballistics by
+  the Inch 124 gr curve. Factory ratings often run fast, so a chronograph value is better. The
+  maker publishes no BC; this one is fitted to its downrange velocity table.
+sources:
+  - label: Federal AE9AP
+    url: https://www.federalpremium.com/handgun/american-eagle/american-eagle-handgun/11-AE9AP.html

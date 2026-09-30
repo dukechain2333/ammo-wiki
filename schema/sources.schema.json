@@ -1,0 +1,28 @@
+{
+  "title": "Ammo Wiki shared sources",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "propertyNames": {
+    "type": "string",
+    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "label": {
+        "type": "string",
+        "minLength": 3,
+        "description": "What the source is: publisher, title and year, e.g. \"LuckyGunner .223/5.56 barrel length test (2026)\"."
+      },
+      "url": {
+        "description": "Link to the source. Leave out only for print sources such as a field manual.",
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "required": [
+      "label"
+    ],
+    "additionalProperties": false
+  }
+}

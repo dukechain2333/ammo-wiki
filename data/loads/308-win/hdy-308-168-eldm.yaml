@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-308-168-eldm
+caliber: 308-win
+brand: Hornady
+name: Hornady 168 gr ELD Match
+short: .308 Hornady 168 ELD-M
+sku: ["80966"]
+weightGr: 168
+diameterIn: 0.308
+bc: 0.263
+dragModel: G7
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2325]
+  - [14.5, 2435]
+  - [16, 2505]
+  - [16.5, 2525]
+  - [17, 2540]
+  - [18, 2585]
+  - [19, 2590]
+  - [20, 2630]
+  - [21, 2645]
+  - [22, 2660]
+  - [23, 2685]
+  - [24, 2700]
+  - [25, 2725]
+  - [26, 2740]
+  - [27, 2760]
+  - [28, 2770]
+notes: >-
+  From the maker's rating (2,700 fps, 24 in test barrel); other lengths follow the Gold Medal 168
+  gr curve. Factory ratings often run fast, so a chronograph value is better. Not the
+  Superformance Match 168 gr, which is rated faster.
+sources:
+  - label: Hornady 80966
+    url: https://www.hornady.com/ammunition/rifle/308-win-168-gr-eld-match

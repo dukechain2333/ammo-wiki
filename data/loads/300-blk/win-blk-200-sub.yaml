@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-blk-200-sub
+caliber: 300-blk
+brand: Winchester
+name: Winchester Super Suppressed 200 gr Open Tip subsonic
+short: .300 BLK Win 200 sub
+sku: [SUP300BLK]
+weightGr: 200
+diameterIn: 0.308
+bc: 0.435
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 990]
+  - [10.5, 1050]
+  - [16.5, 1080]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,060 fps (test barrel not
+  stated).
+sources:
+  - luckygunner-300blk-2026
+  - label: Winchester SUP300BLK
+    url: https://winchester.com/Products/Ammunition/Rifle/Super-Suppressed/SUP300BLK

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-556-75-sbr
+caliber: 556-nato
+brand: Hornady
+name: Hornady BLACK 75 gr InterLock HD SBR
+short: 5.56 Hornady 75 SBR
+sku: ["81296"]
+weightGr: 75
+diameterIn: 0.224
+bc: 0.23
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2000]
+  - [10.5, 2290]
+  - [14.5, 2500]
+  - [16, 2555]
+  - [18, 2625]
+  - [22, 2660]
+notes: >-
+  Measured by LuckyGunner at 7, 10.5, 14.5, 16, 18 and 22 in. Maker's rating: 2,321 fps from an
+  11.5 in test barrel.
+sources:
+  - luckygunner-223-2026
+  - label: Hornady 81296
+    url: https://www.hornady.com/ammunition/rifle/5.56-nato-75-gr-interlock-hd-sbr-black

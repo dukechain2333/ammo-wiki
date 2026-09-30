@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-xm855
+caliber: 556-nato
+brand: Federal
+name: Federal American Eagle XM855 62 gr FMJ (green tip)
+short: 5.56 XM855 62 gr
+sku: [XM855, XM855FL, XM855BK150, XM855BK420 AC1, XM855LC1 AC1, XM855AF90]
+sameAs: m855
+weightGr: 62
+diameterIn: 0.224
+bc: 0.304
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2150]
+  - [7, 2315]
+  - [8, 2435]
+  - [9, 2545]
+  - [10, 2615]
+  - [11, 2705]
+  - [12, 2750]
+  - [13, 2805]
+  - [14, 2850]
+  - [16.5, 2985]
+  - [17, 2985]
+  - [18, 3055]
+  - [19, 3065]
+  - [20, 3100]
+  - [21, 3120]
+  - [22, 3165]
+  - [23, 3175]
+  - [24, 3195]
+  - [25, 3235]
+  - [26, 3285]
+notes: >-
+  Federal's 3,020 fps is the military M855 spec, taken 78 ft from a 20 in barrel (about 3,100 fps
+  at the muzzle); other lengths follow the M855 62 gr curve. Federal lists a G1 BC of 0.349, well
+  above measured M855 figures; the common 0.304 is used.
+sources:
+  - label: Federal XM855FL (archived page)
+    url: https://web.archive.org/web/20191014151218/https://www.federalpremium.com/rifle/american-eagle/american-eagle-training/11-XM855FL.html

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: blk-125-otm
+caliber: 300-blk
+brand: Sig Sauer
+name: Sig Sauer Elite Match 125 gr OTM
+short: .300 BLK Sig 125 OTM
+sku: [E300A1-20, C300A1-20]
+standard: 125 gr OTM supersonic
+weightGr: 125
+diameterIn: 0.308
+bc: 0.338
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1805]
+  - [10.5, 1960]
+  - [16.5, 2085]
+notes: >-
+  Measured at 16 in (GunsAmerica); other lengths follow the 110 gr V-MAX curve. Maker's rating:
+  2,200 fps from a 16 in test barrel. The 16 in reading was taken with a suppressor, which adds a
+  little speed.
+sources:
+  - label: "GunsAmerica: Sig 125 gr Match test (16 in, suppressed)"
+    url: https://gunsamerica.com/digest/ammo-test-sig-sauer-300-blackout-125-grain-supersonic-match-grade/
+  - label: Sig Sauer E300A1-20
+    url: https://www.sigsauer.com/ammo-300blk-125gr-match-supersonic-box-20-1.html

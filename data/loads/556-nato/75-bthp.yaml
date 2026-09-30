@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: 75-bthp
+caliber: 556-nato
+name: 75 gr BTHP match
+short: .223 75 gr BTHP
+weightGr: 75
+diameterIn: 0.224
+bc: 0.395
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2030]
+  - [10.5, 2342]
+  - [14.5, 2526]
+  - [16, 2572]
+  - [18, 2639]
+  - [22, 2661]
+notes: >-
+  Velocities measured with Black Hills 75 gr Heavy Match; Speer and Hornady 75 gr loads ran within
+  about 50 fps.
+sources:
+  - luckygunner-223-2026
+  - label: Hornady 75 gr BTHP Match
+    url: https://www.hornady.com/ammunition/rifle/223-rem-75-gr-bthp-match

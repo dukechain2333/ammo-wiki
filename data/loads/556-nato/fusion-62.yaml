@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fusion-62
+caliber: 556-nato
+brand: Federal
+name: Federal Fusion 62 gr SP
+short: .223 62 gr Fusion
+sku: [F223FS1]
+standard: 62 gr bonded soft point
+weightGr: 62
+diameterIn: 0.224
+bc: 0.31
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7, 2127]
+  - [10.5, 2500]
+  - [14.5, 2741]
+  - [16, 2794]
+  - [18, 2872]
+  - [22, 2901]
+notes: >-
+  Also a reasonable stand-in for other 62-64 gr bonded loads such as Speer Gold Dot.
+sources:
+  - luckygunner-223-2026
+  - label: Federal Fusion F223FS1
+    url: https://www.federalpremium.com/rifle/fusion/11-F223FS1.html

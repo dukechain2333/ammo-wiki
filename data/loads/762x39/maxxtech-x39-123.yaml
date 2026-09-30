@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: maxxtech-x39-123
+caliber: 762x39
+brand: MAXXTech
+name: MAXXTech 123 gr FMJ
+short: 7.62x39 MAXXTech 123
+sku: [MTNFR762, PTGS762]
+sameAs: 762x39-123
+weightGr: 123
+diameterIn: 0.311
+bc: 0.28
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1925]
+  - [10.5, 2155]
+  - [16.5, 2315]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,330 fps (test barrel not
+  stated). LuckyGunner did not say which of MAXXTech's two 123 gr FMJ loads (NFR or Steel Series)
+  it tested. The maker publishes no BC; 0.28 is typical of lead-core FMJ.
+sources:
+  - luckygunner-762x39-2026
+  - label: MAXXTech MTNFR762
+    url: https://maxxtechammo.com/maxxtech-nfr-7-62x39/

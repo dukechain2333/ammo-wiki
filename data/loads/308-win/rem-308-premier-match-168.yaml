@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: rem-308-premier-match-168
+caliber: 308-win
+brand: Remington
+name: Remington Premier Match 168 gr MatchKing
+short: .308 Rem Match 168
+sku: [RM308W7, "21485"]
+weightGr: 168
+diameterIn: 0.308
+bc: 0.462
+dragModel: G1
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2355]
+  - [14.5, 2465]
+  - [16, 2540]
+  - [16.5, 2560]
+  - [17, 2575]
+  - [18, 2620]
+  - [19, 2625]
+  - [20, 2660]
+  - [21, 2680]
+  - [22, 2695]
+  - [23, 2720]
+  - [24, 2735]
+  - [25, 2760]
+  - [26, 2775]
+  - [27, 2795]
+  - [28, 2810]
+notes: >-
+  Measured at 22 and 26 in (Sniper Central); other lengths follow the Gold Medal 168 gr curve.
+  Maker's rating: 2,680 fps from a 24 in test barrel.
+sources:
+  - snipercentral-308-168
+  - label: Remington catalog
+    url: https://www.remington.com/on/demandware.static/-/Library-Sites-RemingtonSharedLibrary/default/v493fe3db596f6ce5b74535df068dcc7404df7314/contentDocuments/catalog/REM_CATALOG-2024_web_0103_hiRes-compressed.pdf

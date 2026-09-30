@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-65cm-129-american-whitetail
+caliber: 65-creedmoor
+brand: Hornady
+name: Hornady American Whitetail 129 gr InterLock
+short: 6.5 CM Hornady 129 InterLock
+sku: ["81489"]
+weightGr: 129
+diameterIn: 0.264
+bc: 0.445
+dragModel: G1
+platform: ar10
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2620]
+  - [17, 2640]
+  - [18, 2680]
+  - [19, 2690]
+  - [20, 2715]
+  - [21, 2730]
+  - [22, 2765]
+  - [23, 2785]
+  - [24, 2815]
+  - [25, 2820]
+  - [26, 2845]
+notes: >-
+  Measured by rifleshooter.com at every inch from 17 to 26 in (one barrel, cut down); 16 in
+  extended. Maker's rating: 2,820 fps from a 24 in test barrel.
+sources:
+  - hornady-catalog
+  - rifleshooter-65cm-2019

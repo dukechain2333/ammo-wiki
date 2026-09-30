@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-x39-255-sub-x
+caliber: 762x39
+brand: Hornady
+name: Hornady Subsonic 255 gr Sub-X
+short: 7.62x39 Hornady 255 sub
+sku: ["80787"]
+weightGr: 255
+diameterIn: 0.3115
+bc: 0.365
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 960]
+  - [10.5, 1030]
+  - [16.5, 1030]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,050 fps from a 20 in test
+  barrel.
+sources:
+  - luckygunner-762x39-2026
+  - label: Hornady 80787
+    url: https://www.hornady.com/ammunition/rifle/7.62x39-255-gr-sub-x-subsonic

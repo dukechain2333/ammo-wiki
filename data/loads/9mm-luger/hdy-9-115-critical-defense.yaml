@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-9-115-critical-defense
+caliber: 9mm-luger
+brand: Hornady
+name: Hornady Critical Defense 115 gr FTX
+short: 9mm Hornady 115 FTX
+sku: ["90250"]
+weightGr: 115
+diameterIn: 0.355
+bc: 0.129
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 1105]
+  - [3.7, 1120]
+  - [4, 1130]
+  - [5, 1205]
+  - [6, 1225]
+  - [8, 1275]
+  - [10, 1295]
+  - [12, 1325]
+  - [14, 1335]
+  - [16, 1335]
+  - [18, 1340]
+notes: >-
+  Measured at 6 barrel lengths from 3.39 to 16 in (Pew Pew Tactical, AmmoLand); other lengths
+  follow the Ballistics by the Inch 115 gr curve. Maker's rating: 1,140 fps from a 4 in test
+  barrel.
+sources:
+  - pewpewtactical-9mm
+  - ammoland-9mm-pistols
+  - label: Hornady 90250
+    url: https://www.hornady.com/ammunition/handgun/9mm-luger-115-gr-ftx-critical-defense

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: sig-blk-220-sub
+caliber: 300-blk
+brand: Sig Sauer
+name: Sig Sauer Elite Match 220 gr OTM subsonic
+short: .300 BLK Sig 220 sub
+sku: [E300A2-20, C300A2-20]
+sameAs: blk-220-sub
+weightGr: 220
+diameterIn: 0.308
+bc: 0.608
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 915]
+  - [10.5, 960]
+  - [16.5, 1005]
+notes: >-
+  Measured at 16 in (GunsAmerica); other lengths follow the Sellier & Bellot 200 gr subsonic
+  curve. Maker's rating: 1,000 fps from a 16 in test barrel. A 10.5 in reading of 888 fps in the
+  same review looked unreliable and is not used.
+sources:
+  - label: "GunsAmerica: Sig 220 gr Match Subsonic test"
+    url: https://gunsamerica.com/digest/test-sig-sauers-new-300-blackout-match-subsonic-ammo/
+  - label: Sig Sauer E300A2-20
+    url: https://www.sigsauer.com/ammo-300blk-220gr-match-subsonic-box-20.html

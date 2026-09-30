@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../schema/caliber.schema.json
+id: 300-blk
+name: .300 AAC Blackout
+short: .300 Blackout
+order: 2
+aliases: [300 BLK, 300BLK, 300 Blackout, 7.62x35, 300 Whisper]
+bulletDiameterIn: 0.308
+barrelPresetsIn: [7.5, 9, 10.5, 12.5, 16]
+defaultBarrelIn: 16
+tableRangeYd: 300
+description: >-
+  A .30-caliber bullet on a shortened .223 case, designed by Advanced Armament Corp. to run in an
+  AR-15 with the standard bolt and magazines. Light supersonic loads (110 to 150 gr) and heavy
+  subsonic loads (190 to 220 gr) for suppressed short barrels share the same chamber.
+drawing: { caseLength: 34.7, overallLength: 55.0, base: 9.6, shoulder: 9.2, shoulderAt: 30.0, neckAt: 31.4, neck: 8.4, bullet: 7.8 }

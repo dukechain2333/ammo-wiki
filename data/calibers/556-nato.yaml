@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=../../schema/caliber.schema.json
+id: 556-nato
+name: 5.56 NATO / .223 Rem
+short: 5.56 NATO
+order: 1
+aliases: [5.56x45, .223 Remington, "223", AR-15, AR15]
+bulletDiameterIn: 0.224
+barrelPresetsIn: [7.5, 10.3, 11.5, 12.5, 14.5, 16, 18, 20]
+defaultBarrelIn: 16
+tableRangeYd: 500
+description: >-
+  The AR-15's cartridge. 5.56x45 NATO and .223 Remington share the same outside dimensions; 5.56 is
+  loaded to higher pressure and 5.56 chambers have a longer throat, so a 5.56 chamber fires both,
+  while 5.56 in a .223-only chamber is not recommended.
+# Case and cartridge outline in mm, for the drawing on caliber pages.
+drawing: { caseLength: 44.7, overallLength: 57.4, base: 9.6, shoulder: 9.0, shoulderAt: 36.5, neckAt: 39.8, neck: 6.4, bullet: 5.7 }

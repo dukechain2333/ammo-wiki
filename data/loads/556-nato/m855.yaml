@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: m855
+caliber: 556-nato
+name: M855 / SS109 62 gr (green tip)
+short: 5.56 M855 62 gr
+weightGr: 62
+diameterIn: 0.224
+bc: 0.304
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2275]
+  - [10.3, 2590]
+  - [11.5, 2690]
+  - [12.5, 2765]
+  - [14.5, 2890]
+  - [16, 2975]
+  - [18, 3055]
+  - [20, 3100]
+notes: >-
+  Blend of two chronograph tests; 20 in matches the M16A2 spec (3,100 fps). BC is the commonly
+  cited figure.
+sources:
+  - luckygunner-223-2026
+  - rifleshooter-223-2015
+  - fm-3-22-9

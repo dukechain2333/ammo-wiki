@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-65cm-deer-season-125
+caliber: 65-creedmoor
+brand: Winchester
+name: Winchester Deer Season XP 125 gr Extreme Point
+short: 6.5 CM Win DSXP 125
+sku: [X65DS]
+weightGr: 125
+diameterIn: 0.264
+bc: 0.54
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2630]
+  - [17, 2655]
+  - [18, 2695]
+  - [19, 2715]
+  - [20, 2755]
+  - [21, 2765]
+  - [22, 2795]
+  - [23, 2835]
+  - [24, 2850]
+  - [25, 2885]
+  - [26, 2895]
+notes: >-
+  From the maker's rating (2,850 fps, 24 in test barrel); other lengths follow the American Eagle
+  120 gr curve. Factory ratings often run fast, so a chronograph value is better.
+sources:
+  - label: Winchester X65DS
+    url: https://winchester.com/Products/Ammunition/Rifle/Deer-Season-XP/X65DS

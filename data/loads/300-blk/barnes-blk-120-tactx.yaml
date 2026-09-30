@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: barnes-blk-120-tactx
+caliber: 300-blk
+brand: Barnes
+name: Barnes VOR-TX 120 gr TAC-TX BT
+short: .300 BLK Barnes 120 TAC-TX
+sku: ["30827"]
+weightGr: 120
+diameterIn: 0.308
+bc: 0.358
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1920]
+  - [10.5, 2025]
+  - [16.5, 2135]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 2,100 fps (test barrel not
+  stated).
+sources:
+  - luckygunner-300blk-2026
+  - label: Barnes 30827
+    url: https://barnesbullets.com/vor-tx-rifle-tac-tx-300-aac-blackout-120-gr-bt/

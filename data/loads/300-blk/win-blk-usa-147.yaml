@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: win-blk-usa-147
+caliber: 300-blk
+brand: Winchester
+name: Winchester USA 147 gr FMJ
+short: .300 BLK Win 147 FMJ
+sku: [USA300B147]
+weightGr: 147
+diameterIn: 0.308
+bc: 0.415
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 1745]
+  - [10.5, 1845]
+  - [16.5, 1950]
+notes: >-
+  Measured by LuckyGunner at 7.5, 10.5 and 16.5 in. Maker's rating: 1,920 fps (test barrel not
+  stated).
+sources:
+  - luckygunner-300blk-2026
+  - label: Winchester USA300B147
+    url: https://winchester.com/Products/Ammunition/Rifle/USA/USA300B147

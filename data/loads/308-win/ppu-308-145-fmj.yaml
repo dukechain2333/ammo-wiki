@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: ppu-308-145-fmj
+caliber: 308-win
+brand: Prvi Partizan
+name: Prvi Partizan (PPU) 145 gr FMJ BT
+short: .308 PPU 145 FMJ
+sku: [PP308F, A-034]
+weightGr: 145
+diameterIn: 0.308
+bc: 0.406
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2435]
+  - [14.5, 2550]
+  - [16, 2625]
+  - [18, 2705]
+  - [20, 2770]
+  - [22, 2805]
+  - [24, 2840]
+notes: >-
+  From the maker's rating (2,838 fps, 24 in test barrel); other lengths follow the M80 ball curve.
+  Factory ratings often run fast, so a chronograph value is better. PPU publishes no BC; 0.406 is
+  the figure listed for its M80-type 145 gr FMJ BT.
+sources:
+  - label: Prvi Partizan PP308F
+    url: https://www.prvipartizan.com/search_rb.php?id=A-034

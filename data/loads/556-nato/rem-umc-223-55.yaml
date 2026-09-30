@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: rem-umc-223-55
+caliber: 556-nato
+brand: Remington
+name: Remington UMC 55 gr FMJ
+short: .223 UMC 55 FMJ
+sku: [L223R3, "23711", L223R3BPLE]
+weightGr: 55
+diameterIn: 0.224
+bc: 0.202
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 1955]
+  - [7, 2135]
+  - [8, 2295]
+  - [9, 2405]
+  - [10, 2490]
+  - [11, 2580]
+  - [12, 2645]
+  - [13, 2695]
+  - [14, 2810]
+  - [16.5, 2945]
+  - [17, 2945]
+  - [18, 3005]
+  - [19, 3030]
+  - [20, 3070]
+  - [21, 3090]
+  - [22, 3110]
+  - [23, 3130]
+  - [24, 3205]
+  - [25, 3205]
+  - [26, 3205]
+notes: >-
+  Measured by rifleshooter.com at every inch from 26 to 6 in (one barrel, cut down). Maker's
+  rating: 3,240 fps from a 24 in test barrel.
+sources:
+  - label: Remington L223R3
+    url: https://www.remington.com/rifle/umc-rifle/29-23711.html
+  - rifleshooter-223-2014-long
+  - rifleshooter-223-2015-short

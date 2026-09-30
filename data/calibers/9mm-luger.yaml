@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../schema/caliber.schema.json
+id: 9mm-luger
+name: 9mm Luger (carbine)
+short: 9mm Luger
+order: 3
+aliases: [9x19, 9mm Parabellum, 9mm, PCC, pistol caliber carbine]
+bulletDiameterIn: 0.355
+barrelPresetsIn: [4.5, 5.5, 8, 10.5, 16]
+defaultBarrelIn: 16
+tableRangeYd: 150
+description: >-
+  9x19 Parabellum, the most common handgun cartridge in the world. The velocity data here runs from
+  pistol barrels out to 16 in pistol-caliber carbines, where standard-pressure 9mm keeps gaining speed
+  well past handgun length.
+drawing: { caseLength: 19.15, overallLength: 29.7, base: 9.96, shoulder: 9.65, shoulderAt: 19.1, neckAt: 19.15, neck: 9.65, bullet: 9.0, shank: 0.1, ogive: 0.95 }

@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-65cm-terminal-ascent-130
+caliber: 65-creedmoor
+brand: Federal
+name: Federal Terminal Ascent 130 gr
+short: 6.5 CM Terminal Ascent 130
+sku: [P65CRDTA1]
+weightGr: 130
+diameterIn: 0.264
+bc: 0.263
+dragModel: G7
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2625]
+  - [17, 2650]
+  - [18, 2665]
+  - [19, 2690]
+  - [20, 2730]
+  - [21, 2745]
+  - [22, 2800]
+  - [23, 2800]
+  - [24, 2810]
+  - [25, 2850]
+  - [26, 2860]
+notes: >-
+  Measured at 22 in (Hook & Barrel); other lengths follow the Norma 130 gr curve. Maker's rating:
+  2,800 fps from a 24 in test barrel.
+sources:
+  - label: "Hook & Barrel: Federal Terminal Ascent review (22 in)"
+    url: https://www.hookandbarrel.com/federals-terminal-ascent-2/
+  - label: Federal P65CRDTA1
+    url: https://www.federalpremium.com/rifle/terminal-ascent/11-P65CRDTA1.html

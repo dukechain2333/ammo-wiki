@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: m855a1
+caliber: 556-nato
+name: M855A1 62 gr EPR
+short: 5.56 M855A1 62 gr EPR
+weightGr: 62
+diameterIn: 0.224
+bc: 0.291
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2320]
+  - [10.3, 2640]
+  - [11.5, 2745]
+  - [12.5, 2820]
+  - [14.5, 2950]
+  - [16, 3030]
+  - [18, 3095]
+  - [20, 3130]
+notes: >-
+  Only 14.5 and 20 in are measured; other lengths follow the M855 curve.
+sources:
+  - label: "Scattered Shots: M855A1 accuracy and velocity"
+    url: https://scatteredshots.com/2024/03/05/m855a1-accuracy-and-velocity/

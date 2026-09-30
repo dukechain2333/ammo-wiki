@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: hdy-blk-208-sub
+caliber: 300-blk
+brand: Hornady
+name: Hornady BLACK 208 gr ELD Match subsonic
+short: .300 BLK Hornady 208 sub
+sku: ["80891"]
+weightGr: 208
+diameterIn: 0.308
+bc: 0.648
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 925]
+  - [10.5, 965]
+  - [16.5, 1010]
+notes: >-
+  Measured at 10.5 in (AmmoMan); other lengths follow the Sellier & Bellot 200 gr subsonic curve.
+  Maker's rating: 1,020 fps from a 16 in test barrel. Item 80891 was loaded with the 208 gr A-MAX
+  until recently; the 10.5 in reading is from an A-MAX box.
+sources:
+  - ammoman-300blk-subsonic
+  - label: Hornady 80891
+    url: https://www.hornady.com/ammunition/rifle/300-blackout-208-gr-a-max-black

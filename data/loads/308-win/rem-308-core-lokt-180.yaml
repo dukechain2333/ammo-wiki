@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: rem-308-core-lokt-180
+caliber: 308-win
+brand: Remington
+name: Remington Core-Lokt 180 gr PSP
+short: .308 Core-Lokt 180
+sku: [R308W3, "21479"]
+weightGr: 180
+diameterIn: 0.308
+bc: 0.383
+dragModel: G1
+platform: ar10
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [12.5, 2240]
+  - [14.5, 2350]
+  - [16, 2415]
+  - [16.5, 2435]
+  - [17, 2460]
+  - [18, 2470]
+  - [19, 2500]
+  - [20, 2545]
+  - [21, 2570]
+  - [22, 2590]
+  - [23, 2620]
+  - [24, 2620]
+  - [25, 2650]
+  - [26, 2660]
+  - [27, 2670]
+  - [28, 2695]
+notes: >-
+  From the maker's rating (2,620 fps, 24 in test barrel); other lengths follow the Winchester 180
+  gr Power-Point curve. Factory ratings often run fast, so a chronograph value is better. Not the
+  180 gr round nose (R308W2), which drops much faster.
+sources:
+  - label: Remington R308W3
+    url: https://www.remington.com/rifle/shop-by-caliber/shop-all-calibers/29-21479.html

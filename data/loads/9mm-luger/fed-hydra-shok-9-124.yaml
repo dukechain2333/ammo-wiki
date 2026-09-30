@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-hydra-shok-9-124
+caliber: 9mm-luger
+brand: Federal
+name: Federal Hydra-Shok 124 gr JHP
+short: 9mm Hydra-Shok 124
+sku: [P9HS1]
+sameAs: 9mm-124
+weightGr: 124
+diameterIn: 0.355
+bc: 0.152
+dragModel: G1
+platform: ar15
+confidence: high
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1061]
+  - [5, 1115]
+  - [6, 1131]
+  - [8, 1180]
+  - [10, 1211]
+  - [12, 1225]
+  - [14, 1241]
+  - [16, 1243]
+notes: >-
+  Measured by Ballistics by the Inch in one barrel, cut down an inch at a time. Maker's rating:
+  1,120 fps from a 4 in test barrel. BBTI tested 2008 lots. The maker publishes no BC; this one is
+  fitted to its downrange velocity table.
+sources:
+  - label: Federal P9HS1
+    url: https://www.federalpremium.com/handgun/personal-defense-hydra-shok/11-P9HS1.html
+  - bbti-9mm

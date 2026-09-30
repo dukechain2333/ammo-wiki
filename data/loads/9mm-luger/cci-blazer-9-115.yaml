@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: cci-blazer-9-115
+caliber: 9mm-luger
+brand: CCI
+name: CCI Blazer Brass 115 gr FMJ
+short: 9mm Blazer Brass 115
+sku: ["5200", 5239A]
+sameAs: 9mm-115
+weightGr: 115
+diameterIn: 0.355
+bc: 0.152
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [3.39, 1085]
+  - [3.7, 1095]
+  - [4, 1105]
+  - [5, 1180]
+  - [6, 1200]
+  - [8, 1245]
+  - [10, 1265]
+  - [12, 1295]
+  - [14, 1310]
+  - [16, 1310]
+  - [18, 1310]
+notes: >-
+  Measured at 6 barrel lengths from 3.39 to 16 in (Pew Pew Tactical, AmmoLand); other lengths
+  follow the Ballistics by the Inch 115 gr curve. Maker's rating: 1,145 fps from a 4 in test
+  barrel. The maker publishes no BC; this one is fitted to its downrange velocity table.
+sources:
+  - pewpewtactical-9mm
+  - ammoland-9mm-pistols
+  - label: CCI 5200
+    url: https://www.cci-ammunition.com/handgun/blazer/blazer-brass/6-5200.html

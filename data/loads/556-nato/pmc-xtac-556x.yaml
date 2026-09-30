@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: pmc-xtac-556x
+caliber: 556-nato
+brand: PMC
+name: PMC X-TAC 55 gr FMJ BT (M193)
+short: 5.56 PMC X-TAC 55
+sku: [5.56X, 5.56X-BP, 5.56X M/B, XP193]
+sameAs: m193
+weightGr: 55
+diameterIn: 0.224
+bc: 0.243
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [6, 2090]
+  - [7, 2285]
+  - [8, 2390]
+  - [9, 2525]
+  - [10, 2625]
+  - [11, 2690]
+  - [12, 2770]
+  - [13, 2825]
+  - [14, 2885]
+  - [16.5, 3010]
+  - [17, 3010]
+  - [18, 3035]
+  - [19, 3095]
+  - [20, 3135]
+  - [21, 3135]
+  - [22, 3190]
+  - [23, 3190]
+  - [24, 3235]
+  - [25, 3250]
+  - [26, 3255]
+notes: >-
+  Measured at 14.5, 16.1 and 20 in (The Firearm Blog); other lengths follow the XM193 55 gr curve.
+  Maker's rating: 3,270 fps from a 20 in test barrel. Tested under the older code XP193.
+sources:
+  - label: "The Firearm Blog: PMC XP193 test (14.5 in)"
+    url: https://www.thefirearmblog.com/blog/2017/12/30/big-freakin-cartridge-test-005-pmc-xp193-5-56x45mm-55gr-fmj-14-5%e2%80%b3-barrel-accuracy/
+  - label: "The Firearm Blog: PMC XP193 test (16.1, 20 in)"
+    url: https://www.thefirearmblog.com/blog/2018/01/01/big-freakin-cartridge-test-006-pmc-xp193-5-56x45mm-55gr-fmj-16%E2%80%B3-20%E2%80%B3-barrels/
+  - label: PMC 5.56X
+    url: https://pmcammo.com/product/x-tac-5-56x/

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: barnaul-x39-123
+caliber: 762x39
+brand: Barnaul
+name: Barnaul 123 gr FMJ (steel case)
+short: 7.62x39 Barnaul 123 FMJ
+sku: [BRN762X39FMJ123]
+sameAs: 762x39-123
+weightGr: 123
+diameterIn: 0.311
+bc: 0.294
+dragModel: G1
+platform: ar15
+confidence: low
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [7.5, 2025]
+  - [10.5, 2260]
+  - [16.5, 2400]
+notes: >-
+  Measured at 16 in (American Rifleman); other lengths follow the LuckyGunner FMJ average curve.
+  Maker's rating: 2,543 fps (test barrel not stated). Barnaul's 2,543 fps rating is far above what
+  a 16 in barrel gave. Russian-made; imports have stopped, but plenty is still around.
+sources:
+  - label: "American Rifleman: PSA KS-47 Gen2 test (16 in)"
+    url: https://www.americanrifleman.org/content/tested-palmetto-state-armory-ks-47-gen2-rifle/
+  - label: Barnaul BRN762X39FMJ123 (retailer listing)
+    url: https://www.ammunitiontogo.com/500rds-7-62x39-barnaul-123gr-fmj-ammo

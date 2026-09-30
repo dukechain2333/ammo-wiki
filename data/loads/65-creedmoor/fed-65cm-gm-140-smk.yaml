@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: fed-65cm-gm-140-smk
+caliber: 65-creedmoor
+brand: Federal
+name: Federal Gold Medal 140 gr Sierra MatchKing
+short: 6.5 CM GM 140 SMK
+sku: [GM65CRD1]
+weightGr: 140
+diameterIn: 0.264
+bc: 0.261
+dragModel: G7
+platform: ar10
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [16, 2525]
+  - [17, 2545]
+  - [18, 2560]
+  - [19, 2600]
+  - [20, 2620]
+  - [21, 2640]
+  - [22, 2660]
+  - [23, 2685]
+  - [24, 2705]
+  - [25, 2740]
+  - [26, 2755]
+notes: >-
+  Measured at 22 and 24 in (PrecisionRifleBlog); other lengths follow the American Gunner 140 gr
+  curve. Maker's rating: 2,675 fps from a 24 in test barrel.
+sources:
+  - precisionrifleblog-65cm-2021
+  - label: Federal GM65CRD1
+    url: https://www.federalpremium.com/rifle/gold-medal/gold-medal-sierra-matchking/11-GM65CRD1.html

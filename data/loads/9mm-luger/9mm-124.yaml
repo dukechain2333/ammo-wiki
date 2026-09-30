@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=../../../schema/load.schema.json
+id: 9mm-124
+caliber: 9mm-luger
+name: 124 gr FMJ / JHP
+short: 9mm 124 gr
+weightGr: 124
+diameterIn: 0.355
+bc: 0.145
+dragModel: G1
+platform: ar15
+confidence: medium
+# [barrel length in, muzzle velocity fps], shortest barrel first
+mvByBarrel:
+  - [4, 1061]
+  - [5, 1115]
+  - [6, 1131]
+  - [8, 1180]
+  - [10, 1211]
+  - [12, 1225]
+  - [14, 1241]
+  - [16, 1243]
+notes: >-
+  Curve measured with Federal 124 gr Hydra-Shok; flat past about 14 in.
+sources:
+  - bbti-9mm
+  - label: Federal AE9AP
+    url: https://www.federalpremium.com/handgun/american-eagle/american-eagle-handgun/11-AE9AP.html
